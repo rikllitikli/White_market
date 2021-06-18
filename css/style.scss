@@ -3,15 +3,28 @@
   padding: 0;
 }
 
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
 .bg-light{
-  position: absolute;
-  width: 100%;
-  z-index: 10;
+  padding: 9px 0;
   background: #000000!important;
 }
 
-.navbar-expand-lg .navbar-collapse {
-  justify-content: center;
+.logo{
+  margin-right: 30px;
+}
+
+.navbar-light .navbar-toggler-icon{
+  margin-bottom: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 10px;
+  display: block;
+  background-image: none;
 }
 
 
@@ -19,6 +32,115 @@
   font-size: 15px;
   line-height: 18px;
   color: white !important;
+}
+
+.nav-link:hover{
+  color: #0B9344!important;
+  transition: 0.3s;
+}
+.blog{
+  color: orange!important;
+}
+
+.contact_header a:nth-last-child(1){
+  color: white;
+  text-decoration: none;
+  border: 1px solid #0B9344;
+  padding: 4px 15px;
+  border-radius: 10px;
+  margin-left: 30px;
 
 }
 
+.contact_header a:nth-last-child(1):hover{
+  background-color: #0B9344;
+  transition: 0.3s;
+}
+
+.screen_one{
+  background-image: url("../img/Rectangle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 51px 0 21px;
+ h1{
+   color: white;
+   font-size: 25px;
+   line-height: 30px;
+   margin-bottom: 40px;
+   text-align: center;
+ }
+  .card_{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    padding: 30px;
+
+    .user_image{
+      display: inline-block;
+      img{
+        position: relative;
+        left: 2px;
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+    h3{
+      font-size: 20px;
+      color: white;
+      @include max-screen(514px){
+        font-size: 12px;
+      }
+    }
+    h4{
+      color: white;
+      font-size: 15px;
+      font-weight: normal;
+      margin-bottom: 10px;
+      @include max-screen(514px){
+        font-size: 10px;
+      }
+    }
+    p{
+      font-size: 10px;
+      color: white;
+      margin-bottom: 24px;
+      @include max-screen(514px){
+        font-size: 8px;
+      }
+    }
+    .price{
+      background: rgba(196, 196, 196, 0.2);
+      border-radius: 10px;
+      padding: 12px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p{
+        font-size: 30px;
+        color: white;
+        margin-bottom: 0;
+        display: inline-block;
+        span{
+          font-size: 15px;
+        }
+      }
+      a{
+        color: white;
+        background-color: #0B9344;
+        padding: 10px 43px;
+        display: inline-block;
+      }
+    }
+  }
+  li{
+    margin-left: 50px;
+    color: white;
+    font-size: 15px;
+  }
+}
+
+.screen_one li:nth-child(n+3):nth-child(-n+6) {
+  list-style: none;
+}

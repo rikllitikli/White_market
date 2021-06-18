@@ -3,17 +3,114 @@
   padding: 0; }
 
 .bg-light {
-  position: absolute;
-  width: 100%;
-  z-index: 10;
+  padding: 9px 0;
   background: #000000 !important; }
 
-.navbar-expand-lg .navbar-collapse {
-  justify-content: center; }
+.logo {
+  margin-right: 30px; }
+
+.navbar-light .navbar-toggler-icon {
+  margin-bottom: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 10px;
+  display: block;
+  background-image: none; }
 
 .nav-link {
   font-size: 15px;
   line-height: 18px;
   color: white !important; }
+
+.nav-link:hover {
+  color: #0B9344 !important;
+  transition: 0.3s; }
+
+.blog {
+  color: orange !important; }
+
+.contact_header a:nth-last-child(1) {
+  color: white;
+  text-decoration: none;
+  border: 1px solid #0B9344;
+  padding: 4px 15px;
+  border-radius: 10px;
+  margin-left: 30px; }
+
+.contact_header a:nth-last-child(1):hover {
+  background-color: #0B9344;
+  transition: 0.3s; }
+
+.screen_one {
+  background-image: url("../img/Rectangle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 51px 0 21px; }
+  .screen_one h1 {
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    text-align: center; }
+  .screen_one .card_ {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    padding: 30px; }
+    .screen_one .card_ .user_image {
+      display: inline-block; }
+      .screen_one .card_ .user_image img {
+        position: relative;
+        left: 2px;
+        width: 100%;
+        border-radius: 50%; }
+    .screen_one .card_ h3 {
+      font-size: 20px;
+      color: white; }
+      @media screen and (max-width: 514px) {
+        .screen_one .card_ h3 {
+          font-size: 12px; } }
+    .screen_one .card_ h4 {
+      color: white;
+      font-size: 15px;
+      font-weight: normal;
+      margin-bottom: 10px; }
+      @media screen and (max-width: 514px) {
+        .screen_one .card_ h4 {
+          font-size: 10px; } }
+    .screen_one .card_ p {
+      font-size: 10px;
+      color: white;
+      margin-bottom: 24px; }
+      @media screen and (max-width: 514px) {
+        .screen_one .card_ p {
+          font-size: 8px; } }
+    .screen_one .card_ .price {
+      background: rgba(196, 196, 196, 0.2);
+      border-radius: 10px;
+      padding: 12px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .screen_one .card_ .price p {
+        font-size: 30px;
+        color: white;
+        margin-bottom: 0;
+        display: inline-block; }
+        .screen_one .card_ .price p span {
+          font-size: 15px; }
+      .screen_one .card_ .price a {
+        color: white;
+        background-color: #0B9344;
+        padding: 10px 43px;
+        display: inline-block; }
+  .screen_one li {
+    margin-left: 50px;
+    color: white;
+    font-size: 15px; }
+
+.screen_one li:nth-child(n+3):nth-child(-n+6) {
+  list-style: none; }
 
 /*# sourceMappingURL=style.css.map */

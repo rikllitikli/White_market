@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.bg-light {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  background: #000000 !important; }
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center; }
+
+.nav-link {
+  font-size: 15px;
+  line-height: 18px;
+  color: white !important; }
+
+/*# sourceMappingURL=style.css.map */

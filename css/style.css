@@ -175,7 +175,7 @@
   background-image: url("../img/back_screen_two.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   padding: 51px 0 71px; }
   @media screen and (max-width: 991px) {
     .screen_two {
@@ -342,5 +342,86 @@ footer {
     color: #0B9344 !important;
     text-decoration: none !important;
     font-size: 10px; }
+
+.merkrt_screen_one {
+  background-image: url("../img/screen_one_market.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 134px 0 160px; }
+  @media screen and (max-width: 414px) {
+    .merkrt_screen_one {
+      height: 508px; } }
+  .merkrt_screen_one h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white; }
+    @media screen and (max-width: 414px) {
+      .merkrt_screen_one h1 {
+        font-size: 20px; } }
+  .merkrt_screen_one p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold; }
+    @media screen and (max-width: 414px) {
+      .merkrt_screen_one p {
+        font-size: 15px; } }
+
+.market_video {
+  padding: 100px 0; }
+  .market_video .m_video {
+    border-radius: 3%; }
+
+.market_price {
+  background-image: url("../img/back_m_price.jpg");
+  padding: 50px 0 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .market_price .m_price {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 34px 20px 30px;
+    height: 177px;
+    border-radius: 10px; }
+    .market_price .m_price .discount {
+      background-color: #ED1C24;
+      width: 50px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      color: white;
+      font-size: 15px;
+      position: absolute;
+      top: 0;
+      right: 15px;
+      border-bottom-left-radius: 10px; }
+    .market_price .m_price h3 {
+      font-size: 19px;
+      color: white; }
+    .market_price .m_price h4 {
+      font-size: 15px;
+      color: white;
+      margin-bottom: 20px; }
+    .market_price .m_price a {
+      background-color: #E6FDEF;
+      padding: 10px 50px;
+      border-radius: 10px;
+      text-decoration: none; }
+    .market_price .m_price p {
+      Vertical-align: Top;
+      line-height: 10px;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      font-size: 30px; }
+      .market_price .m_price p span {
+        font-size: 12px;
+        font-weight: normal; }
+
+.m_price:hover {
+  width: 365px;
+  height: 197px;
+  transition: 1.5s; }
 
 /*# sourceMappingURL=style.css.map */

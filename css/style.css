@@ -56,11 +56,15 @@
     line-height: 30px;
     margin-bottom: 40px;
     text-align: center; }
+    @media screen and (max-width: 514) {
+      .screen_one h1 {
+        margin-bottom: 30px; } }
   .screen_one .card_ {
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(50px);
     border-radius: 10px;
-    padding: 30px; }
+    padding: 30px;
+    height: 260px; }
     @media screen and (max-width: 992px) {
       .screen_one .card_ {
         height: 542px; } }
@@ -108,8 +112,7 @@
       justify-content: space-between;
       align-items: center;
       position: relative;
-      bottom: 76px;
-      width: 64%; }
+      bottom: 76px; }
       @media screen and (max-width: 1200px) {
         .screen_one .card_ .price {
           position: relative;
@@ -126,14 +129,17 @@
       .screen_one .card_ .price p {
         font-size: 30px;
         color: white;
+        font-weight: bold;
         margin-bottom: 0;
         display: inline-block; }
         .screen_one .card_ .price p span {
-          font-size: 15px; }
+          font-size: 15px;
+          font-weight: normal; }
       .screen_one .card_ .price a {
         color: white;
         background-color: #0B9344;
         padding: 10px 43px;
+        text-decoration: none;
         display: inline-block;
         border-radius: 10px; }
     .screen_one .card_ .price:hover {
@@ -164,5 +170,147 @@
 
 .screen_one li {
   padding: 0; }
+
+.screen_two {
+  background-image: url("../img/back_screen_two.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 51px 0 71px; }
+  @media screen and (max-width: 991px) {
+    .screen_two {
+      padding: 60px 0 30px; } }
+  .screen_two h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px; }
+    @media screen and (max-width: 514px) {
+      .screen_two h2 {
+        font-size: 17px;
+        margin-bottom: 30px; } }
+  .screen_two li {
+    margin-left: 50px;
+    color: black;
+    font-size: 15px;
+    padding: 0 13px 0 28px; }
+    @media screen and (max-width: 514px) {
+      .screen_two li {
+        font-size: 10px; } }
+  .screen_two ul {
+    padding: 0 13px 0 28px;
+    position: relative; }
+    @media screen and (max-width: 991px) {
+      .screen_two ul {
+        position: absolute;
+        bottom: -490px;
+        z-index: 2; } }
+    @media screen and (max-width: 767px) {
+      .screen_two ul {
+        position: absolute;
+        bottom: -526px; } }
+    @media screen and (max-width: 514px) {
+      .screen_two ul {
+        position: absolute;
+        bottom: -379px; } }
+    @media screen and (max-width: 375px) {
+      .screen_two ul {
+        position: absolute;
+        bottom: -392px; } }
+    @media screen and (max-width: 320px) {
+      .screen_two ul {
+        position: absolute;
+        bottom: -447px; } }
+  .screen_two .card_scr_two {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    padding: 30px;
+    height: 260px; }
+    @media screen and (max-width: 992px) {
+      .screen_two .card_scr_two {
+        height: 562px; } }
+    @media screen and (max-width: 767px) {
+      .screen_two .card_scr_two {
+        height: 600px; } }
+    @media screen and (max-width: 514px) {
+      .screen_two .card_scr_two {
+        height: 454px; } }
+    @media screen and (max-width: 414px) {
+      .screen_two .card_scr_two {
+        height: 452px; } }
+    @media screen and (max-width: 375px) {
+      .screen_two .card_scr_two {
+        height: 465px; } }
+    @media screen and (max-width: 320px) {
+      .screen_two .card_scr_two {
+        height: 516px; } }
+    .screen_two .card_scr_two .user_image img {
+      position: relative;
+      left: 2px;
+      max-width: 200px;
+      width: 100%;
+      border-radius: 50%; }
+    .screen_two .card_scr_two h3 {
+      font-size: 20px;
+      color: black; }
+      @media screen and (max-width: 514px) {
+        .screen_two .card_scr_two h3 {
+          font-size: 12px; } }
+    .screen_two .card_scr_two h4 {
+      color: black;
+      font-size: 15px;
+      font-weight: normal;
+      margin-bottom: 10px; }
+      @media screen and (max-width: 514px) {
+        .screen_two .card_scr_two h4 {
+          font-size: 10px; } }
+    .screen_two .card_scr_two p {
+      font-size: 10px;
+      color: black;
+      margin-bottom: 24px; }
+      @media screen and (max-width: 514px) {
+        .screen_two .card_scr_two p {
+          font-size: 8px; } }
+    .screen_two .card_scr_two .price {
+      background: rgba(79, 79, 79, 0.2);
+      border-radius: 10px;
+      padding: 12px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      bottom: 52px; }
+      @media screen and (max-width: 1200px) {
+        .screen_two .card_scr_two .price {
+          position: relative;
+          bottom: 16px; } }
+      @media screen and (max-width: 991px) {
+        .screen_two .card_scr_two .price {
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+          right: 0; } }
+      @media screen and (max-width: 320px) {
+        .screen_two .card_scr_two .price {
+          padding: 10px 20px !important; } }
+      .screen_two .card_scr_two .price p {
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+        margin-bottom: 0;
+        display: inline-block; }
+        .screen_two .card_scr_two .price p span {
+          font-size: 15px;
+          font-weight: normal; }
+      .screen_two .card_scr_two .price a {
+        color: white;
+        background-color: #0B9344;
+        text-decoration: none;
+        padding: 10px 43px;
+        display: inline-block;
+        border-radius: 10px; }
+    .screen_two .card_scr_two .price:hover {
+      padding: 20px;
+      transition: 0.3s; }
 
 /*# sourceMappingURL=style.css.map */

@@ -73,12 +73,16 @@
    line-height: 30px;
    margin-bottom: 40px;
    text-align: center;
+   @include max-screen(514){
+     margin-bottom: 30px;
+   }
  }
   .card_{
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(50px);
     border-radius: 10px;
     padding: 30px;
+    height: 260px;
     @include max-screen(992px){
       height: 542px;
     }
@@ -134,7 +138,6 @@
       align-items: center;
       position: relative;
       bottom: 76px;
-      width: 64%;
       @include max-screen(1200px){
         position: relative;
         bottom: 34px;
@@ -152,16 +155,19 @@
       p{
         font-size: 30px;
         color: white;
+        font-weight: bold;
         margin-bottom: 0;
         display: inline-block;
         span{
           font-size: 15px;
+          font-weight: normal;
         }
       }
       a{
         color: white;
         background-color: #0B9344;
         padding: 10px 43px;
+        text-decoration: none;
         display: inline-block;
         border-radius: 10px;
       }
@@ -200,4 +206,164 @@
 
 .screen_one li{
   padding: 0;
+}
+
+.screen_two{
+  background-image: url("../img/back_screen_two.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 51px 0 71px;
+  @include max-screen(991px){
+    padding: 60px 0 30px;
+  }
+  h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    @include max-screen(514px){
+      font-size: 17px;
+      margin-bottom: 30px;
+    }
+  }
+  li{
+    margin-left: 50px;
+    color: black;
+    font-size: 15px;
+    padding: 0 13px 0 28px;
+    @include max-screen(514px){
+      font-size: 10px;
+    }
+  }
+  ul{
+    padding: 0 13px 0 28px;
+    position: relative;
+    @include max-screen(991px){
+      position: absolute;
+      bottom: -490px;
+      z-index: 2;
+    }
+    @include max-screen(767px){
+      position: absolute;
+      bottom: -526px;
+    }
+    @include max-screen(514px){
+      position: absolute;
+      bottom: -379px;
+    }
+    @include max-screen(375px){
+      position: absolute;
+      bottom: -392px;
+    }
+    @include max-screen(320px){
+      position: absolute;
+      bottom: -447px;
+    }
+  }
+  .card_scr_two{
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    padding: 30px;
+    height: 260px;
+    @include max-screen(992px){
+      height: 562px;
+    }
+    @include max-screen(767px){
+      height: 600px;
+    }
+    @include max-screen(514px){
+      height: 454px;
+    }
+    @include max-screen(414px){
+      height: 452px;
+    }
+    @include max-screen(375px){
+      height: 465px;
+    }
+    @include max-screen(320px){
+      height: 516px;
+    }
+
+    .user_image{
+      img{
+        position: relative;
+        left: 2px;
+        max-width: 200px;
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+    h3{
+      font-size: 20px;
+      color: black;
+      @include max-screen(514px){
+        font-size: 12px;
+      }
+    }
+    h4{
+      color: black;
+      font-size: 15px;
+      font-weight: normal;
+      margin-bottom: 10px;
+      @include max-screen(514px){
+        font-size: 10px;
+      }
+    }
+    p{
+      font-size: 10px;
+      color: black;
+      margin-bottom: 24px;
+      @include max-screen(514px){
+        font-size: 8px;
+      }
+    }
+    .price{
+      background: rgba(79, 79, 79, 0.2);
+      border-radius: 10px;
+      padding: 12px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      bottom: 52px;
+      @include max-screen(1200px){
+        position: relative;
+        bottom: 16px;
+      }
+      @include max-screen(991px){
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+      }
+      @include max-screen(320px){
+        padding: 10px 20px!important;
+      }
+
+      p{
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+        margin-bottom: 0;
+        display: inline-block;
+        span{
+          font-size: 15px;
+          font-weight: normal;
+        }
+      }
+      a{
+        color: white;
+        background-color: #0B9344;
+        text-decoration: none;
+        padding: 10px 43px;
+        display: inline-block;
+        border-radius: 10px;
+      }
+    }
+    .price:hover{
+      padding: 20px;
+      transition: 0.3s;
+    }
+  }
 }

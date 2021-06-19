@@ -231,6 +231,10 @@
     color: black;
     font-size: 15px;
     padding: 0 13px 0 28px;
+    font-weight: bold;
+    span{
+      font-weight: normal;
+    }
     @include max-screen(514px){
       font-size: 10px;
     }
@@ -365,5 +369,39 @@
       padding: 20px;
       transition: 0.3s;
     }
+  }
+}
+
+.screen_two li:nth-child(n+3):nth-child(-n+5) {
+  list-style: none;
+  font-weight: normal;
+}
+
+footer{
+  background: #222222;
+  padding: 50px 0;
+  .footer_content{
+    margin-bottom: 30px;
+  }
+  p{
+    color: white;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  i{
+    font-size: 30px;
+    margin-right: 15px;
+    color: #828282;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+  }
+  i:nth-last-child(2){
+    margin-bottom: 18px;
+  }
+  a{
+    color: #0B9344!important;
+    text-decoration: none!important;
+    font-size: 10px;
   }
 }

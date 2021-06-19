@@ -384,6 +384,9 @@ footer {
     padding: 34px 20px 30px;
     height: 177px;
     border-radius: 10px; }
+    @media screen and (max-width: 991px) {
+      .market_price .m_price {
+        margin-bottom: 30px; } }
     .market_price .m_price .discount {
       background-color: #ED1C24;
       width: 50px;

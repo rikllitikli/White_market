@@ -452,6 +452,9 @@ footer{
     padding: 34px 20px 30px ;
     height: 177px;
     border-radius: 10px;
+    @include max-screen(991px){
+      margin-bottom: 30px;
+    }
     .discount{
       background-color: #ED1C24;
       width: 50px;

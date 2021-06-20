@@ -502,4 +502,22 @@ footer{
   width: 365px;
   height: 197px;
   transition: 1.5s;
+  @include max-screen(1024px){
+    width: 300px;
+  }
+  @include max-screen(992px){
+    width: 700px;
+  }
+  @include max-screen(767px){
+    width: 520px;
+  }
+  @include max-screen(414px){
+    width: 390px;
+  }
+  @include max-screen(375px){
+    width: 345px;
+  }
+  @include max-screen(320px){
+    width: 290px;
+  }
 }

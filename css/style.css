@@ -426,5 +426,23 @@ footer {
   width: 365px;
   height: 197px;
   transition: 1.5s; }
+  @media screen and (max-width: 1024px) {
+    .m_price:hover {
+      width: 300px; } }
+  @media screen and (max-width: 992px) {
+    .m_price:hover {
+      width: 700px; } }
+  @media screen and (max-width: 767px) {
+    .m_price:hover {
+      width: 520px; } }
+  @media screen and (max-width: 414px) {
+    .m_price:hover {
+      width: 390px; } }
+  @media screen and (max-width: 375px) {
+    .m_price:hover {
+      width: 345px; } }
+  @media screen and (max-width: 320px) {
+    .m_price:hover {
+      width: 290px; } }
 
 /*# sourceMappingURL=style.css.map */

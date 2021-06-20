@@ -47,6 +47,7 @@
   color: orange!important;
 }
 
+
 .contact_header a:nth-last-child(1){
   color: white;
   text-decoration: none;
@@ -746,4 +747,35 @@ h1{
 .i_instagram{
   background-color: black;
   padding: 135px 0;
+}
+
+.about_screen_one{
+  background-image: url("../img/about_screen_one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding: 171px 0;
+  h1{
+    color: white;
+    font-size: 30px;
+  }
+}
+
+.about_screen_two{
+  padding: 100px 0 64px;
+  .a_value{
+    margin-bottom: 36px;
+  }
+  h2{
+    @include h2;
+    margin-bottom: 50px;
+  }
+  img{
+    width: 50px;
+    height: 50px;
+  }
+  p{
+    font-size: 15px;
+    font-weight: bold;
+  }
 }

@@ -446,6 +446,10 @@ footer {
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 25px; }
+    @media screen and (max-width: 767px) {
+      .index_screen_one h1 {
+        font-size: 20px;
+        line-height: 24px; } }
   .index_screen_one a {
     font-weight: bold;
     color: white;
@@ -503,6 +507,9 @@ footer {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 61px; }
+    @media screen and (max-width: 767px) {
+      .index_screen_two h2 {
+        font-size: 15px; } }
   .index_screen_two img {
     width: 100%; }
 
@@ -532,6 +539,9 @@ footer {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 50px; }
+  @media screen and (max-width: 767px) {
+    .index_screen_three h2 {
+      font-size: 15px; } }
 .index_screen_three h3 {
   font-size: 20px;
   font-weight: bold; }
@@ -572,5 +582,47 @@ footer {
       .i_partners a {
         position: relative;
         bottom: 0; } }
+
+.i_investments {
+  padding-bottom: 100px; }
+  .i_investments h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px; }
+
+.i_talk {
+  background-color: #FAFAFA;
+  padding: 20px 25px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px; }
+  .i_talk h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .i_talk p {
+    font-size: 15px;
+    color: black;
+    margin-bottom: 15px; }
+  .i_talk .data {
+    margin-bottom: 33px; }
+
+.i_talk:hover {
+  width: 370px;
+  height: 200px;
+  transition: 0.3s; }
+  @media screen and (max-width: 992px) {
+    .i_talk:hover {
+      width: 350px; } }
+  @media screen and (max-width: 767px) {
+    .i_talk:hover {
+      max-width: 700px;
+      width: 100%; } }
+  .i_talk:hover h3 {
+    color: #0B9344; }
+
+.i_instagram {
+  background-color: black;
+  padding: 135px 0; }
 
 /*# sourceMappingURL=style.css.map */

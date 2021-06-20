@@ -529,6 +529,10 @@ h1{
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 25px;
+  @include max-screen(767px){
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
   a{
     font-weight: bold;
@@ -600,6 +604,9 @@ h1{
   h2{
     @include h2;
     margin-bottom: 61px;
+    @include max-screen(767px){
+      font-size: 15px;
+    }
   }
   img{
     width: 100%;
@@ -639,6 +646,9 @@ h1{
   h2{
     @include h2;
     margin-bottom: 50px;
+    @include max-screen(767px){
+      font-size: 15px;
+    }
   }
   h3{
     font-size: 20px;
@@ -686,4 +696,54 @@ h1{
       bottom: 0;
     }
   }
+}
+
+.i_investments{
+  padding-bottom: 100px;
+  h2{
+    @include h2;
+    margin-bottom: 50px;
+  }
+}
+
+.i_talk{
+  background-color: #FAFAFA;
+  padding: 20px 25px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  p{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 15px;
+  }
+  .data{
+    margin-bottom: 33px;
+  }
+}
+
+.i_talk:hover{
+  width: 370px;
+  height: 200px;
+  transition: 0.3s;
+  @include max-screen(992px){
+    width: 350px;
+  }
+  @include max-screen(767px){
+    max-width: 700px;
+    width: 100%;
+  }
+  h3{
+    color: #0B9344;
+  }
+}
+.i_instagram{
+  background-color: black;
+  padding: 135px 0;
 }

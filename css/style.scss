@@ -518,8 +518,9 @@ footer{
     width: 345px;
   }
   @include max-screen(375px){
-    width: 340px;
+    width: 339px;
   }
+
   @include max-screen(320px){
     width: 290px;
   }

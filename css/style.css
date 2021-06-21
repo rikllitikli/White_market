@@ -461,17 +461,17 @@ footer {
     text-decoration: none;
     text-align: center; }
 
-.carusel_index .owl-nav {
+.carusel_i .owl-nav {
   position: absolute;
   top: 274px;
   width: 100%; }
-.carusel_index .owl-nav .owl-next {
+.carusel_i .owl-nav .owl-next {
   position: absolute;
   right: 30px; }
   @media screen and (max-width: 411px) {
-    .carusel_index .owl-nav .owl-next {
+    .carusel_i .owl-nav .owl-next {
       right: 10px; } }
-.carusel_index .owl-nav .owl-next:before {
+.carusel_i .owl-nav .owl-next:before {
   content: "\f054";
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
@@ -479,20 +479,20 @@ footer {
   color: white;
   padding: 13px 18px;
   border-radius: 50%; }
-.carusel_index .owl-drag {
+.carusel_i .owl-drag {
   text-align: center; }
-.carusel_index .owl-dots {
+.carusel_i .owl-dots {
   position: absolute;
   width: 100%;
   bottom: 30px; }
-.carusel_index .owl-dot span {
+.carusel_i .owl-dot span {
   display: inline-block;
   width: 10px;
   height: 10px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 100%;
   margin-right: 10px; }
-.carusel_index .owl-dot.active span {
+.carusel_i .owl-dot.active span {
   background-color: white; }
 
 .index_screen_two {

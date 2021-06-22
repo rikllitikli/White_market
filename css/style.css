@@ -675,6 +675,7 @@ footer {
         max-height: 150px;
         height: 100%; } }
     .about_screen_three .a_comand .user_image a {
+      display: none;
       background-image: url("../img/Vector_tel.png");
       padding: 8px 10px 26px;
       position: absolute;
@@ -706,6 +707,8 @@ footer {
         .about_screen_three .a_comand .user_image a {
           position: absolute;
           right: -10px; } }
+    .about_screen_three .a_comand .user_image:hover a {
+      display: block; }
     .about_screen_three .a_comand img {
       border-radius: 50%;
       max-width: 150px;
@@ -750,6 +753,7 @@ footer {
         max-height: 170px;
         width: 100%; } }
   .about_screen_three .imag_user a {
+    display: none;
     background-image: url("../img/Vector_tel.png");
     padding: 8px 10px 26px;
     position: absolute;
@@ -774,7 +778,11 @@ footer {
   .about_screen_three .imag_user img {
     display: block;
     overflow: hidden;
-    border-radius: 50%; }
+    border-radius: 50%;
+    margin-bottom: 15px; }
+  .about_screen_three .imag_user:hover a {
+    display: block;
+    transition: 1s; }
 
 .tel_comand {
   padding-top: 60px; }

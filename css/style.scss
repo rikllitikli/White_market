@@ -814,6 +814,7 @@ h1{
     }
     .user_image{
       a{
+        display: none;
         background-image: url("../img/Vector_tel.png");
         padding: 8px 10px 26px;
         position: absolute;
@@ -845,6 +846,11 @@ h1{
           position: absolute;
           right: -10px;
         }
+      }
+    }
+    .user_image:hover{
+      a{
+        display: block;
       }
     }
     img{
@@ -901,6 +907,7 @@ h1{
   }
   .imag_user{
     a{
+      display: none;
       background-image: url("../img/Vector_tel.png");
       padding: 8px 10px 26px;
       position: absolute;
@@ -928,6 +935,13 @@ h1{
       display: block;
       overflow: hidden;
       border-radius: 50%;
+      margin-bottom: 15px;
+    }
+  }
+  .imag_user:hover{
+    a{
+      display: block;
+      transition: 1s;
     }
   }
 }

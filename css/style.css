@@ -882,6 +882,7 @@ footer {
       padding: 13px 15px 13px 22px;
       text-align: center;
       border-radius: 10px;
+      text-decoration: none;
       width: 182px; }
 
 .k_screen_one {
@@ -1000,5 +1001,117 @@ footer {
   .k_telegram a:hover {
     padding: 26px 30px;
     transition: 0.3s; }
+
+.trainer_screen_one {
+  background-image: url("../img/trainer_screen_one.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding: 68px 0 74px; }
+  .trainer_screen_one h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 37px; }
+  .trainer_screen_one .img_t {
+    display: flex;
+    justify-content: center; }
+  .trainer_screen_one img {
+    max-width: 160px;
+    width: 100%;
+    display: block;
+    margin-bottom: 46px; }
+  .trainer_screen_one button {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #ED1B24;
+    border-radius: 10px;
+    max-width: 160px;
+    width: 100%;
+    padding: 10px 0;
+    border: none; }
+
+.trainer_screen_two {
+  padding: 100px 0; }
+  .trainer_screen_two h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px; }
+  .trainer_screen_two img {
+    width: 100%; }
+  .trainer_screen_two .t_details {
+    background-color: white;
+    height: 191px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #92929240;
+    margin-bottom: 50px; }
+    .trainer_screen_two .t_details h3 {
+      font-size: 15px;
+      font-weight: bold;
+      color: black;
+      margin-bottom: 10px; }
+    .trainer_screen_two .t_details p {
+      font-size: 15px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 15px; }
+  .trainer_screen_two p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5); }
+
+.trainer_screen_three {
+  background-image: url("../img/trainer_video.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0 67px; }
+  .trainer_screen_three .t_video {
+    max-height: 381px;
+    height: 100%;
+    position: absolute;
+    left: -15px; }
+  .trainer_screen_three h2 {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px; }
+  .trainer_screen_three img {
+    max-width: 50px;
+    width: 100%;
+    max-height: 50px;
+    height: 100%; }
+  .trainer_screen_three h3 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px; }
+  .trainer_screen_three p {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 30px;
+    max-width: 285px; }
+
+.trainer_screen_four {
+  padding: 100px 0 70px; }
+  .trainer_screen_four img {
+    width: 50px;
+    height: 50px; }
+  .trainer_screen_four h2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 50px; }
+    @media screen and (max-width: 767px) {
+      .trainer_screen_four h2 {
+        font-size: 15px; } }
+  .trainer_screen_four h3 {
+    font-size: 20px;
+    font-weight: bold; }
+  .trainer_screen_four p {
+    font-size: 15px;
+    color: black;
+    max-width: 270px;
+    margin-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1226,6 +1226,24 @@ h1{
     font-weight: bold;
     color: white;
     margin-bottom: 37px;
+    @include max-screen(767px){
+      font-size: 30px;
+    }
+    @include max-screen(320px){
+      font-size: 20px;
+    }
+  }
+  @include max-screen(767px){
+    .adaptive{
+      width: 100%;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+  @include max-screen(414px){
+    .adaptive{
+      padding: 10px 5px;
+    }
   }
 
   .img_t{
@@ -1249,6 +1267,15 @@ h1{
       width: 100%;
       padding: 10px 0;
       border: none;
+      @include max-screen(767px){
+        font-size: 15px;
+      }
+      @include max-screen(414px){
+        font-size: 10px;
+      }
+      @include max-screen(320px){
+        font-size: 8px;
+      }
   }
 }
 
@@ -1297,6 +1324,14 @@ h1{
   background-position: center;
   background-size: cover;
   padding: 50px 0 67px;
+  @include max-screen(767px){
+    .adaptive_video{
+      margin-bottom: 30px;
+      .t_video{
+        position: static;
+      }
+    }
+  }
   .t_video{
     max-height: 381px;
     height: 100%;
@@ -1308,6 +1343,9 @@ h1{
     color: white;
     font-weight: bold;
     margin-bottom: 50px;
+    @include max-screen(767px){
+      display: none;
+    }
   }
   img{
     max-width: 50px;
@@ -1351,5 +1389,229 @@ h1{
     color: black;
     max-width: 270px;
     margin-bottom: 30px;
+  }
+}
+
+.trainer_screen_five{
+  background-image: url("../img/trainer_screen_five_back.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0 33px;
+  @include max-screen(575px){
+    padding: 50px 30px 33px;
+  }
+
+  .review_t{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    h3{
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    p{
+      font-size: 15px;
+      span{
+        font-weight: bold;
+      }
+    }
+  }
+  .phone{
+    margin: auto;
+    img{
+      margin: auto;
+      width: 147px;
+      border-radius: 10px;
+      @include max-screen(571px){
+        max-width: 500px;
+        width: 100%;
+      }
+    }
+    img:hover{
+      width: 200px;
+      transition: 0.5s;
+    }
+  }
+  .owl-nav {
+    position: absolute;
+    top: 274px;
+    width: 100%;
+  }
+
+
+
+  .owl-nav .owl-next {
+    position: absolute;
+    right: -80px;
+    top: -100px;
+    @include max-screen(1120px){
+      right: -40px;
+    }
+    @include max-screen(767px){
+      right: -50px;
+    }
+    @include max-screen(575px){
+      right: -44px;
+    }
+  }
+  .owl-nav .owl-prev {
+    position: absolute;
+    left: -80px;
+    top: -100px;
+    @include max-screen(1120px){
+      left: -45px;
+    }
+    @include max-screen(767px){
+      left: -50px;
+    }
+    @include max-screen(575px){
+      left: -24px;
+    }
+  }
+  .owl-nav .owl-prev:before {
+    content: "\f053";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+  }
+
+  .owl-nav .owl-next:before {
+    content: "\f054";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    padding: 13px 18px;
+    border-radius: 50%;
+  }
+
+}
+
+.trainer_screen_six{
+  padding: 100px 0 70px;
+  img{
+    width: 50px;
+    height: 50px;
+  }
+  .t_prie_green{
+    background-color: #0B9344;
+    padding: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    h3{
+      font-size: 30px;
+      color: white;
+      margin-bottom: 20px;
+    }
+    p{
+      color: white;
+      font-size: 20px;
+    }
+  }
+  .t_prie_red{
+    background-color: #ED1B24;
+    padding: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    h3{
+      font-size: 30px;
+      color: white;
+      margin-bottom: 20px;
+    }
+    p{
+      color: white;
+      font-size: 20px;
+    }
+  }
+  .t_prie_orange{
+    background-color: #F7931B;
+    padding: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    h3{
+      font-size: 30px;
+      color: white;
+      margin-bottom: 20px;
+    }
+    p{
+      color: white;
+      font-size: 20px;
+    }
+  }
+  .t_prie{
+    box-shadow: 0px 0px 10px 0px #92929240;
+    padding: 25px;
+    height: 663px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .price_content{
+    p{
+      font-size: 15px;
+      line-height: 24px;
+      span{
+        color: red;
+      }
+    }
+  }
+  .buy{
+    p{
+      font-size: 15px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 30px;
+    }
+    a{
+      background-color: #E6FDEF;
+      padding: 10px 47px;
+      border-radius: 10px;
+      color: #0B9344;
+      text-decoration: none;
+    }
+  }
+}
+
+.hover:hover{
+width: 365px;
+  transition: 0.5s;
+  @include max-screen(1200px){
+    width: 300px;
+  }
+  @include max-screen(991px){
+    max-width: 700px;
+    width: 100%;
+  }
+}
+
+.trainer_screen_seven{
+  background-color: #343434;
+  padding: 50px 0 50px;
+  text-align: center;
+  img{
+    margin-bottom: 20px;
+  }
+  h3{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  p{
+    font-size: 15px;
+    color: white;
+  }
+}
+
+.trainer_map{
+  padding: 100px 0;
+  h2{
+    @include h2
   }
 }

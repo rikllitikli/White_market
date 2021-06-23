@@ -1013,6 +1013,20 @@ footer {
     font-weight: bold;
     color: white;
     margin-bottom: 37px; }
+    @media screen and (max-width: 767px) {
+      .trainer_screen_one h1 {
+        font-size: 30px; } }
+    @media screen and (max-width: 320px) {
+      .trainer_screen_one h1 {
+        font-size: 20px; } }
+  @media screen and (max-width: 767px) {
+    .trainer_screen_one .adaptive {
+      width: 100%;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.1); } }
+  @media screen and (max-width: 414px) {
+    .trainer_screen_one .adaptive {
+      padding: 10px 5px; } }
   .trainer_screen_one .img_t {
     display: flex;
     justify-content: center; }
@@ -1031,6 +1045,15 @@ footer {
     width: 100%;
     padding: 10px 0;
     border: none; }
+    @media screen and (max-width: 767px) {
+      .trainer_screen_one button {
+        font-size: 15px; } }
+    @media screen and (max-width: 414px) {
+      .trainer_screen_one button {
+        font-size: 10px; } }
+    @media screen and (max-width: 320px) {
+      .trainer_screen_one button {
+        font-size: 8px; } }
 
 .trainer_screen_two {
   padding: 100px 0; }
@@ -1067,6 +1090,11 @@ footer {
   background-position: center;
   background-size: cover;
   padding: 50px 0 67px; }
+  @media screen and (max-width: 767px) {
+    .trainer_screen_three .adaptive_video {
+      margin-bottom: 30px; }
+      .trainer_screen_three .adaptive_video .t_video {
+        position: static; } }
   .trainer_screen_three .t_video {
     max-height: 381px;
     height: 100%;
@@ -1077,6 +1105,9 @@ footer {
     color: white;
     font-weight: bold;
     margin-bottom: 50px; }
+    @media screen and (max-width: 767px) {
+      .trainer_screen_three h2 {
+        display: none; } }
   .trainer_screen_three img {
     max-width: 50px;
     width: 100%;
@@ -1113,5 +1144,184 @@ footer {
     color: black;
     max-width: 270px;
     margin-bottom: 30px; }
+
+.trainer_screen_five {
+  background-image: url("../img/trainer_screen_five_back.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0 33px; }
+  @media screen and (max-width: 575px) {
+    .trainer_screen_five {
+      padding: 50px 30px 33px; } }
+  .trainer_screen_five .review_t {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px; }
+    .trainer_screen_five .review_t h3 {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px; }
+    .trainer_screen_five .review_t p {
+      font-size: 15px; }
+      .trainer_screen_five .review_t p span {
+        font-weight: bold; }
+  .trainer_screen_five .phone {
+    margin: auto; }
+    .trainer_screen_five .phone img {
+      margin: auto;
+      width: 147px;
+      border-radius: 10px; }
+      @media screen and (max-width: 571px) {
+        .trainer_screen_five .phone img {
+          max-width: 500px;
+          width: 100%; } }
+    .trainer_screen_five .phone img:hover {
+      width: 200px;
+      transition: 0.5s; }
+  .trainer_screen_five .owl-nav {
+    position: absolute;
+    top: 274px;
+    width: 100%; }
+  .trainer_screen_five .owl-nav .owl-next {
+    position: absolute;
+    right: -80px;
+    top: -100px; }
+    @media screen and (max-width: 1120px) {
+      .trainer_screen_five .owl-nav .owl-next {
+        right: -40px; } }
+    @media screen and (max-width: 767px) {
+      .trainer_screen_five .owl-nav .owl-next {
+        right: -50px; } }
+    @media screen and (max-width: 575px) {
+      .trainer_screen_five .owl-nav .owl-next {
+        right: -44px; } }
+  .trainer_screen_five .owl-nav .owl-prev {
+    position: absolute;
+    left: -80px;
+    top: -100px; }
+    @media screen and (max-width: 1120px) {
+      .trainer_screen_five .owl-nav .owl-prev {
+        left: -45px; } }
+    @media screen and (max-width: 767px) {
+      .trainer_screen_five .owl-nav .owl-prev {
+        left: -50px; } }
+    @media screen and (max-width: 575px) {
+      .trainer_screen_five .owl-nav .owl-prev {
+        left: -24px; } }
+  .trainer_screen_five .owl-nav .owl-prev:before {
+    content: "\f053";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    border-radius: 50%; }
+  .trainer_screen_five .owl-nav .owl-next:before {
+    content: "\f054";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    padding: 13px 18px;
+    border-radius: 50%; }
+
+.trainer_screen_six {
+  padding: 100px 0 70px; }
+  .trainer_screen_six img {
+    width: 50px;
+    height: 50px; }
+  .trainer_screen_six .t_prie_green {
+    background-color: #0B9344;
+    padding: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; }
+    .trainer_screen_six .t_prie_green h3 {
+      font-size: 30px;
+      color: white;
+      margin-bottom: 20px; }
+    .trainer_screen_six .t_prie_green p {
+      color: white;
+      font-size: 20px; }
+  .trainer_screen_six .t_prie_red {
+    background-color: #ED1B24;
+    padding: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; }
+    .trainer_screen_six .t_prie_red h3 {
+      font-size: 30px;
+      color: white;
+      margin-bottom: 20px; }
+    .trainer_screen_six .t_prie_red p {
+      color: white;
+      font-size: 20px; }
+  .trainer_screen_six .t_prie_orange {
+    background-color: #F7931B;
+    padding: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; }
+    .trainer_screen_six .t_prie_orange h3 {
+      font-size: 30px;
+      color: white;
+      margin-bottom: 20px; }
+    .trainer_screen_six .t_prie_orange p {
+      color: white;
+      font-size: 20px; }
+  .trainer_screen_six .t_prie {
+    box-shadow: 0px 0px 10px 0px #92929240;
+    padding: 25px;
+    height: 663px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; }
+  .trainer_screen_six .price_content p {
+    font-size: 15px;
+    line-height: 24px; }
+    .trainer_screen_six .price_content p span {
+      color: red; }
+  .trainer_screen_six .buy p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px; }
+  .trainer_screen_six .buy a {
+    background-color: #E6FDEF;
+    padding: 10px 47px;
+    border-radius: 10px;
+    color: #0B9344;
+    text-decoration: none; }
+
+.hover:hover {
+  width: 365px;
+  transition: 0.5s; }
+  @media screen and (max-width: 1200px) {
+    .hover:hover {
+      width: 300px; } }
+  @media screen and (max-width: 991px) {
+    .hover:hover {
+      max-width: 700px;
+      width: 100%; } }
+
+.trainer_screen_seven {
+  background-color: #343434;
+  padding: 50px 0 50px;
+  text-align: center; }
+  .trainer_screen_seven img {
+    margin-bottom: 20px; }
+  .trainer_screen_seven h3 {
+    font-size: 20px;
+    color: white;
+    font-weight: bold; }
+  .trainer_screen_seven p {
+    font-size: 15px;
+    color: white; }
+
+.trainer_map {
+  padding: 100px 0; }
+  .trainer_map h2 {
+    font-size: 25px;
+    font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

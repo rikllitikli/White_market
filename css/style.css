@@ -30,14 +30,35 @@
   color: orange !important; }
 
 .contact_header img {
-  margin-right: 30px; }
+  margin-right: 30px;
+  margin-left: 76px; }
+  @media screen and (max-width: 1200px) {
+    .contact_header img {
+      margin-left: 30px; } }
+  @media screen and (max-width: 991px) {
+    .contact_header img {
+      margin-left: 0;
+      margin-right: 0;
+      position: relative;
+      left: 190px; } }
 
+@media screen and (max-width: 991px) {
+  .back_head {
+    background-image: url("../img/Rectangle.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-align: center; } }
 .contact_header a:nth-last-child(1) {
   color: white;
   text-decoration: none;
   border: 1px solid #0B9344;
   padding: 4px 15px;
   border-radius: 10px; }
+  @media screen and (max-width: 991px) {
+    .contact_header a:nth-last-child(1) {
+      position: relative;
+      right: 15px; } }
 
 .contact_header a:nth-last-child(1):hover {
   background-color: #0B9344;
@@ -144,6 +165,9 @@
         text-decoration: none;
         display: inline-block;
         border-radius: 10px; }
+      .screen_one .card_ .price a:hover {
+        box-shadow: 0px 4px 4px 0px #00000040;
+        transition: 0.3s; }
     .screen_one .card_ .price:hover {
       padding: 20px;
       transition: 0.3s; }
@@ -314,6 +338,9 @@
         padding: 10px 43px;
         display: inline-block;
         border-radius: 10px; }
+      .screen_two .card_scr_two .price a:hover {
+        box-shadow: 0px 4px 4px 0px #00000040;
+        transition: 0.3s; }
     .screen_two .card_scr_two .price:hover {
       padding: 20px;
       transition: 0.3s; }
@@ -462,6 +489,9 @@ footer {
     margin: auto;
     text-decoration: none;
     text-align: center; }
+  .index_screen_one a:hover {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    transition: 0.3s; }
 
 .carusel_i .owl-nav {
   position: absolute;
@@ -541,6 +571,10 @@ footer {
     color: #0B9344;
     border: solid 1px #0B9344;
     text-decoration: none; }
+  .i_details a:hover {
+    background-color: #0B9344;
+    color: white;
+    transition: 0.3s; }
 
 .index_screen_three img {
   width: 50px;
@@ -889,6 +923,10 @@ footer {
       border-radius: 10px;
       text-decoration: none;
       width: 182px; }
+    .about_comand .a_comand a:hover {
+      background-color: #0B9344;
+      color: white;
+      transition: 0.3s; }
 
 .k_screen_one {
   background-image: url("../img/k-back-screen_one.jpg");
@@ -970,6 +1008,10 @@ footer {
         border: solid 1px #0B9344;
         border-radius: 10px;
         text-decoration: none; }
+      .k_screen_two .k_flex_container .bottom a:hover {
+        background-color: #0B9344;
+        color: white;
+        transition: 0.3s; }
 
 .k_telegram {
   padding-bottom: 80px; }
@@ -1102,9 +1144,7 @@ footer {
         position: static; } }
   .trainer_screen_three .t_video {
     max-height: 381px;
-    height: 100%;
-    position: absolute;
-    left: -15px; }
+    height: 100%; }
   .trainer_screen_three h2 {
     font-size: 25px;
     color: white;
@@ -1297,6 +1337,10 @@ footer {
     border-radius: 10px;
     color: #0B9344;
     text-decoration: none; }
+  .trainer_screen_six .buy a:hover {
+    background-color: #0B9344;
+    color: white;
+    transition: 0.3s; }
 
 .hover:hover {
   width: 365px;

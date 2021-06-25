@@ -50,6 +50,26 @@
 .contact_header{
   img{
     margin-right: 30px;
+    margin-left: 76px;
+    @include max-screen(1200px){
+      margin-left: 30px;
+    }
+    @include max-screen(991px){
+      margin-left: 0;
+      margin-right: 0;
+      position: relative;
+      left: 190px;
+    }
+  }
+}
+
+@include max-screen(991px){
+  .back_head{
+    background-image: url("../img/Rectangle.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-align: center;
   }
 }
 
@@ -59,6 +79,10 @@
   border: 1px solid #0B9344;
   padding: 4px 15px;
   border-radius: 10px;
+  @include max-screen(991px){
+    position: relative;
+    right: 15px;
+  }
 
 }
 
@@ -180,6 +204,10 @@
         text-decoration: none;
         display: inline-block;
         border-radius: 10px;
+      }
+      a:hover{
+        box-shadow: 0px 4px 4px 0px #00000040;
+        transition: 0.3s;
       }
     }
     .price:hover{
@@ -374,6 +402,10 @@
         display: inline-block;
         border-radius: 10px;
       }
+      a:hover{
+        box-shadow: 0px 4px 4px 0px #00000040;
+        transition: 0.3s;
+      }
     }
     .price:hover{
       padding: 20px;
@@ -550,6 +582,10 @@ h1{
     text-decoration: none;
     text-align: center;
   }
+  a:hover{
+    box-shadow: 0px 4px 4px 0px #00000040;
+    transition: 0.3s;
+  }
 }
 
 .carusel_i{
@@ -659,6 +695,11 @@ h1{
     color: #0B9344;
     border: solid 1px #0B9344;
     text-decoration: none;
+  }
+  a:hover{
+    background-color: #0B9344;
+    color: white;
+    transition: 0.3s;
   }
 }
 
@@ -1078,6 +1119,11 @@ h1{
       text-decoration: none;
       width: 182px;
     }
+    a:hover{
+      background-color: #0B9344;
+      color: white;
+      transition: 0.3s;
+    }
   }
 }
 
@@ -1178,6 +1224,11 @@ h1{
         border: solid 1px #0B9344;
         border-radius: 10px;
         text-decoration: none;
+      }
+      a:hover{
+        background-color: #0B9344;
+        color: white;
+        transition: 0.3s;
       }
     }
   }
@@ -1348,8 +1399,6 @@ h1{
   .t_video{
     max-height: 381px;
     height: 100%;
-    position: absolute;
-    left: -15px;
   }
   h2{
     font-size: 25px;
@@ -1588,6 +1637,11 @@ h1{
       border-radius: 10px;
       color: #0B9344;
       text-decoration: none;
+    }
+    a:hover{
+     background-color: #0B9344;
+      color: white;
+      transition: 0.3s;
     }
   }
 }

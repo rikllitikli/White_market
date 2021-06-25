@@ -29,13 +29,15 @@
 .blog {
   color: orange !important; }
 
+.contact_header img {
+  margin-right: 30px; }
+
 .contact_header a:nth-last-child(1) {
   color: white;
   text-decoration: none;
   border: 1px solid #0B9344;
   padding: 4px 15px;
-  border-radius: 10px;
-  margin-left: 30px; }
+  border-radius: 10px; }
 
 .contact_header a:nth-last-child(1):hover {
   background-color: #0B9344;

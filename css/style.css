@@ -473,6 +473,20 @@ footer {
   @media screen and (max-width: 411px) {
     .carusel_i .owl-nav .owl-next {
       right: 10px; } }
+.carusel_i .owl-nav .owl-prev {
+  position: absolute;
+  left: 30px; }
+  @media screen and (max-width: 411px) {
+    .carusel_i .owl-nav .owl-prev {
+      left: 10px; } }
+.carusel_i .owl-nav .owl-prev:before {
+  content: "\f053";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 40px;
+  color: white;
+  padding: 13px 18px;
+  border-radius: 50%; }
 .carusel_i .owl-nav .owl-next:before {
   content: "\f054";
   font-family: 'Font Awesome 5 Free';
@@ -715,6 +729,8 @@ footer {
       border-radius: 50%;
       max-width: 150px;
       width: 100%; }
+    .about_screen_three .a_comand img:hover {
+      max-width: 155px; }
     .about_screen_three .a_comand h3 {
       color: white;
       font-size: 25px;
@@ -772,21 +788,31 @@ footer {
       .about_screen_three .imag_user a {
         position: absolute;
         top: -70px;
-        right: 17px; } }
+        right: 0; } }
     @media screen and (max-width: 414px) {
       .about_screen_three .imag_user a {
         width: 87px;
         font-size: 10px; } }
   .about_screen_three .imag_user img {
+    max-width: 125px;
+    width: 100%;
     display: block;
     overflow: hidden;
     border-radius: 50%;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+  .about_screen_three .imag_user img:hover {
+    max-width: 130px;
+    width: 100%;
+    transition: 0.3s; }
   .about_screen_three .imag_user:hover a {
     display: block;
     transition: 1s; }
 
 .tel_comand {
+  max-width: 1140px;
+  margin: auto;
   padding-top: 60px; }
   .tel_comand h4 {
     color: white;
@@ -807,20 +833,8 @@ footer {
   width: 100%; }
 .carusel_about .owl-nav .owl-prev {
   position: absolute;
-  left: -50px;
+  left: 0;
   bottom: 0; }
-  @media screen and (max-width: 630px) {
-    .carusel_about .owl-nav .owl-prev {
-      bottom: -280px;
-      left: 10px; } }
-  @media screen and (max-width: 414px) {
-    .carusel_about .owl-nav .owl-prev {
-      bottom: -230px;
-      left: 10px; } }
-  @media screen and (max-width: 320px) {
-    .carusel_about .owl-nav .owl-prev {
-      bottom: -180px;
-      left: 10px; } }
 .carusel_about .owl-nav .owl-prev:before {
   content: "\f053";
   font-family: 'Font Awesome 5 Free';
@@ -831,20 +845,8 @@ footer {
   border-radius: 50%; }
 .carusel_about .owl-nav .owl-next {
   position: absolute;
-  right: -50px;
+  right: 0;
   bottom: 0; }
-  @media screen and (max-width: 630px) {
-    .carusel_about .owl-nav .owl-next {
-      bottom: -280px;
-      right: 10px; } }
-  @media screen and (max-width: 414px) {
-    .carusel_about .owl-nav .owl-next {
-      bottom: -230px;
-      right: 10px; } }
-  @media screen and (max-width: 320px) {
-    .carusel_about .owl-nav .owl-next {
-      bottom: -180px;
-      right: 10px; } }
 .carusel_about .owl-nav .owl-next:before {
   content: "\f054";
   font-family: 'Font Awesome 5 Free';

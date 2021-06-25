@@ -569,6 +569,24 @@ h1{
     }
   }
 
+  .owl-nav .owl-prev {
+    position: absolute;
+    left: 30px;
+    @include max-screen(411px){
+      left: 10px;
+    }
+  }
+
+  .owl-nav .owl-prev:before {
+    content: "\f053";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    padding: 13px 18px;
+    border-radius: 50%;
+  }
+
   .owl-nav .owl-next:before {
     content: "\f054";
     font-family: 'Font Awesome 5 Free';
@@ -862,6 +880,9 @@ h1{
       max-width: 150px;
       width: 100%;
     }
+    img:hover{
+      max-width: 155px;
+    }
     h3{
       color: white;
       font-size: 25px;
@@ -927,7 +948,7 @@ h1{
       @include max-screen(992px){
         position: absolute;
         top: -70px;
-        right: 17px;
+        right: 0;
       }
       @include max-screen(414px){
         width: 87px;
@@ -936,10 +957,19 @@ h1{
 
     }
     img {
+      max-width: 125px;
+      width: 100%;
       display: block;
       overflow: hidden;
       border-radius: 50%;
       margin-bottom: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    img:hover {
+      max-width: 130px;
+     width: 100%;
+      transition: 0.3s;
     }
   }
   .imag_user:hover{
@@ -951,6 +981,8 @@ h1{
 }
 
 .tel_comand{
+  max-width: 1140px;
+  margin: auto;
   h4{
     color: white;
     text-align: center;
@@ -978,20 +1010,8 @@ h1{
 
   .owl-nav .owl-prev{
     position: absolute;
-    left: -50px;
+    left: 0;
     bottom: 0;
-    @include max-screen(630px){
-      bottom:  -280px;
-      left: 10px;
-    }
-    @include max-screen(414px){
-      bottom:  -230px;
-      left: 10px;
-    }
-    @include max-screen(320px){
-      bottom:  -180px;
-      left: 10px;
-    }
   }
 
   .owl-nav .owl-prev:before {
@@ -1006,20 +1026,8 @@ h1{
 
   .owl-nav .owl-next {
     position: absolute;
-    right: -50px;
+    right: 0;
     bottom: 0;
-    @include max-screen(630px){
-      bottom: -280px;
-      right: 10px;
-    }
-    @include max-screen(414px){
-      bottom:  -230px;
-      right: 10px;
-    }
-    @include max-screen(320px){
-      bottom:  -180px;
-      right: 10px;
-    }
   }
 
   .owl-nav .owl-next:before {

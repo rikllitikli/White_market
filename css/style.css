@@ -618,7 +618,8 @@ footer {
     margin-bottom: 33px; }
 
 .i_talk:hover {
-  width: 370px;
+  box-shadow: 0px 0px 10px 0px #92929240;
+  width: 365px;
   height: 200px;
   transition: 0.3s; }
   @media screen and (max-width: 992px) {

@@ -1475,11 +1475,19 @@ h1{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 50px 0 33px;
+  height: 521px;
+  @include max-screen(991px){
+    height: 100%;
+  }
   @include max-screen(575px){
     padding: 50px 30px 33px;
   }
-
+h2{
+  @include h2;
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
   .review_t{
     background-color: white;
     padding: 25px;
@@ -1504,14 +1512,24 @@ h1{
       width: 147px;
       border-radius: 10px;
       @include max-screen(571px){
-        max-width: 500px;
         width: 100%;
       }
     }
+
+
     img:hover{
       width: 200px;
       transition: 0.5s;
+      position: relative;
+      bottom: 100px;
+      @include max-screen(991px){
+        bottom: 0;
+      }
+      @include max-screen(575px){
+       width: 100%;
+      }
     }
+
   }
   .owl-nav {
     position: absolute;
@@ -1639,9 +1657,11 @@ h1{
     transition: 0.3s;
     .hov{
       margin: 0;
+      transition: 0.3s;
     }
     .hov_trainer{
       display: block;
+      transition: 0.3s;
     }
   }
 
@@ -1672,18 +1692,6 @@ h1{
       color: white;
       transition: 0.3s;
     }
-  }
-}
-
-.hover:hover{
-width: 365px;
-  transition: 0.5s;
-  @include max-screen(1200px){
-    width: 300px;
-  }
-  @include max-screen(991px){
-    max-width: 700px;
-    width: 100%;
   }
 }
 

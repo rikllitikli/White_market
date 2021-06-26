@@ -1209,10 +1209,19 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 50px 0 33px; }
+  height: 521px; }
+  @media screen and (max-width: 991px) {
+    .trainer_screen_five {
+      height: 100%; } }
   @media screen and (max-width: 575px) {
     .trainer_screen_five {
       padding: 50px 30px 33px; } }
+  .trainer_screen_five h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 50px; }
   .trainer_screen_five .review_t {
     background-color: white;
     padding: 25px;
@@ -1234,11 +1243,18 @@ footer {
       border-radius: 10px; }
       @media screen and (max-width: 571px) {
         .trainer_screen_five .phone img {
-          max-width: 500px;
           width: 100%; } }
     .trainer_screen_five .phone img:hover {
       width: 200px;
-      transition: 0.5s; }
+      transition: 0.5s;
+      position: relative;
+      bottom: 100px; }
+      @media screen and (max-width: 991px) {
+        .trainer_screen_five .phone img:hover {
+          bottom: 0; } }
+      @media screen and (max-width: 575px) {
+        .trainer_screen_five .phone img:hover {
+          width: 100%; } }
   .trainer_screen_five .owl-nav {
     position: absolute;
     top: 274px;
@@ -1341,9 +1357,11 @@ footer {
   .trainer_screen_six .t_prie:hover {
     transition: 0.3s; }
     .trainer_screen_six .t_prie:hover .hov {
-      margin: 0; }
+      margin: 0;
+      transition: 0.3s; }
     .trainer_screen_six .t_prie:hover .hov_trainer {
-      display: block; }
+      display: block;
+      transition: 0.3s; }
   .trainer_screen_six .price_content p {
     font-size: 15px;
     line-height: 24px; }
@@ -1363,17 +1381,6 @@ footer {
     background-color: #0B9344;
     color: white;
     transition: 0.3s; }
-
-.hover:hover {
-  width: 365px;
-  transition: 0.5s; }
-  @media screen and (max-width: 1200px) {
-    .hover:hover {
-      width: 300px; } }
-  @media screen and (max-width: 991px) {
-    .hover:hover {
-      max-width: 700px;
-      width: 100%; } }
 
 .trainer_screen_seven {
   background-color: #343434;

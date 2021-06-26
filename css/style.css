@@ -58,7 +58,7 @@
   @media screen and (max-width: 991px) {
     .contact_header a:nth-last-child(1) {
       position: relative;
-      right: 15px; } }
+      right: 14px; } }
 
 .contact_header a:nth-last-child(1):hover {
   background-color: #0B9344;

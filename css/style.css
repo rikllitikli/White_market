@@ -1246,7 +1246,7 @@ footer {
           width: 100%; } }
     .trainer_screen_five .phone img:hover {
       width: 200px;
-      transition: 0.5s;
+      transition: 1s;
       position: relative;
       bottom: 100px; }
       @media screen and (max-width: 991px) {

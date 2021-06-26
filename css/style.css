@@ -58,7 +58,7 @@
   @media screen and (max-width: 991px) {
     .contact_header a:nth-last-child(1) {
       position: relative;
-      right: 14px; } }
+      right: 13px; } }
 
 .contact_header a:nth-last-child(1):hover {
   background-color: #0B9344;
@@ -407,7 +407,11 @@ footer {
   padding: 50px 0 60px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  height: 287px; }
+  @media screen and (max-width: 991px) {
+    .market_price {
+      height: 100%; } }
   .market_price .m_price {
     background-color: rgba(255, 255, 255, 0.3);
     padding: 34px 20px 30px;
@@ -440,6 +444,10 @@ footer {
       padding: 10px 50px;
       border-radius: 10px;
       text-decoration: none; }
+    .market_price .m_price a:hover {
+      background-color: #0B9344;
+      color: white;
+      transition: 0.3s; }
     .market_price .m_price p {
       Vertical-align: Top;
       line-height: 10px;
@@ -626,6 +634,10 @@ footer {
       .i_partners .botton_partner {
         position: relative;
         bottom: 0; } }
+  .i_partners .botton_partner:hover {
+    background-color: #0B9344;
+    color: white;
+    transition: 0.3s; }
 
 .i_investments {
   padding-bottom: 100px; }
@@ -653,8 +665,6 @@ footer {
 
 .i_talk:hover {
   box-shadow: 0px 0px 10px 0px #92929240;
-  width: 365px;
-  height: 200px;
   transition: 0.3s; }
   @media screen and (max-width: 992px) {
     .i_talk:hover {
@@ -704,10 +714,14 @@ footer {
 
 .about_screen_three {
   background-image: url("../img/about_screen_three.jpg");
+  height: 673px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 50px 0 57px; }
+  @media screen and (max-width: 991px) {
+    .about_screen_three {
+      height: 100%; } }
   .about_screen_three h2 {
     font-size: 25px;
     font-weight: bold;

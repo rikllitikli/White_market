@@ -1315,13 +1315,21 @@ footer {
   .trainer_screen_six .t_prie {
     box-shadow: 0px 0px 10px 0px #92929240;
     padding: 25px;
-    height: 663px;
+    min-height: 663px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px; }
+    .trainer_screen_six .t_prie .hov_trainer {
+      display: none; }
+  .trainer_screen_six .t_prie:hover {
+    transition: 0.3s; }
+    .trainer_screen_six .t_prie:hover .hov {
+      margin: 0; }
+    .trainer_screen_six .t_prie:hover .hov_trainer {
+      display: block; }
   .trainer_screen_six .price_content p {
     font-size: 15px;
     line-height: 24px; }

@@ -1608,14 +1608,27 @@ h1{
   .t_prie{
     box-shadow: 0px 0px 10px 0px #92929240;
     padding: 25px;
-    height: 663px;
+    min-height: 663px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    .hov_trainer{
+      display: none;
+    }
   }
+  .t_prie:hover{
+    transition: 0.3s;
+    .hov{
+      margin: 0;
+    }
+    .hov_trainer{
+      display: block;
+    }
+  }
+
   .price_content{
     p{
       font-size: 15px;

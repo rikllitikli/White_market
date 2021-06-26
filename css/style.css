@@ -614,7 +614,7 @@ footer {
     font-weight: bold;
     margin-bottom: 49px;
     color: black; }
-  .i_partners a {
+  .i_partners .botton_partner {
     color: rgba(0, 0, 0, 0.5);
     padding: 8px 16px;
     border: solid 1px #D7D7D7;
@@ -623,7 +623,7 @@ footer {
     position: relative;
     bottom: 20px; }
     @media screen and (max-width: 991px) {
-      .i_partners a {
+      .i_partners .botton_partner {
         position: relative;
         bottom: 0; } }
 

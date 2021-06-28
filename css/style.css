@@ -460,17 +460,8 @@ footer {
         font-weight: normal; }
 
 .m_price:hover {
-  width: 365px;
   height: 197px;
-  transition: 1.5s; }
-  @media screen and (max-width: 1024px) {
-    .m_price:hover {
-      max-width: 300px;
-      width: 100%; } }
-  @media screen and (max-width: 992px) {
-    .m_price:hover {
-      max-width: 700px;
-      width: 100%; } }
+  transition: 0.5s; }
 
 .index_screen_one {
   background-image: url("../img/index_screen_one.jpg");
@@ -1236,25 +1227,23 @@ footer {
       .trainer_screen_five .review_t p span {
         font-weight: bold; }
   .trainer_screen_five .phone {
-    margin: auto; }
+    position: relative; }
     .trainer_screen_five .phone img {
       margin: auto;
       width: 147px;
       border-radius: 10px; }
       @media screen and (max-width: 571px) {
         .trainer_screen_five .phone img {
+          max-width: 500px;
           width: 100%; } }
     .trainer_screen_five .phone img:hover {
-      width: 200px;
-      transition: 1s;
-      position: relative;
-      bottom: 100px; }
-      @media screen and (max-width: 991px) {
-        .trainer_screen_five .phone img:hover {
-          bottom: 0; } }
-      @media screen and (max-width: 575px) {
-        .trainer_screen_five .phone img:hover {
-          width: 100%; } }
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 160px;
+      bottom: -150px;
+      width: 216px;
+      transition: 1.3s; }
   .trainer_screen_five .owl-nav {
     position: absolute;
     top: 274px;

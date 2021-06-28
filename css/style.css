@@ -1344,7 +1344,7 @@ footer {
     .trainer_screen_six .t_prie .hov_trainer {
       display: none; }
   .trainer_screen_six .t_prie:hover {
-    transition: 0.3s; }
+    transition: 1s; }
     .trainer_screen_six .t_prie:hover .hov {
       margin: 0;
       transition: 0.3s; }

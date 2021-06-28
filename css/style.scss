@@ -1516,6 +1516,11 @@ h2{
       bottom: -150px;
       width: 216px;
       transition: 1.3s;
+      @include max-screen(991px){
+        position: relative;
+        top: 0;
+        bottom: 0;
+      }
     }
   }
 

@@ -1244,6 +1244,11 @@ footer {
       bottom: -150px;
       width: 216px;
       transition: 1.3s; }
+      @media screen and (max-width: 991px) {
+        .trainer_screen_five .phone img:hover {
+          position: relative;
+          top: 0;
+          bottom: 0; } }
   .trainer_screen_five .owl-nav {
     position: absolute;
     top: 274px;

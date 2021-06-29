@@ -1715,6 +1715,70 @@ h2{
 .trainer_map{
   padding: 100px 0;
   h2{
-    @include h2
+    @include h2;
+    text-transform: uppercase;
+    margin-bottom: 50px;
   }
+.vert_line{
+  border-left: dashed 3px black;
+  height: 50px;
+  margin-bottom: 5px;
+}
+  .elips{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+  .vert_line_1{
+    border-left: dashed 3px black;
+    height: 100px;
+    margin-bottom: 5px;
+  }
+.r_data{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  .left_data{
+    padding-top: 180px;
+    margin-right: 20px;
+    h3{
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+      @include max-screen(767px){
+        font-size: 12px;
+      }
+    }
+    p{
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 15px;
+      @include max-screen(767px){
+        font-size: 10px;
+      }
+    }
+  }
+  .right_data{
+    padding-top: 53px;
+    margin-left: 20px;
+    h3{
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+      @include max-screen(767px){
+        font-size: 12px;
+      }
+    }
+    p{
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 15px;
+      margin-bottom: 180px;
+      @include max-screen(767px){
+        font-size: 10px;
+        margin-bottom: 215px;
+      }
+    }
+  }
+}
 }

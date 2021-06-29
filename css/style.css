@@ -1396,6 +1396,10 @@ footer {
 
 .trainer_map {
   padding: 100px 0; }
+  .trainer_map .r_border {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .trainer_map h2 {
     font-size: 25px;
     font-weight: bold;

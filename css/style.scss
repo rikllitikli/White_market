@@ -1766,6 +1766,7 @@ h2{
       font-weight: bold;
       color: black;
       @include max-screen(767px){
+        max-width: 100px;
         font-size: 12px;
       }
     }
@@ -1774,6 +1775,7 @@ h2{
       font-size: 15px;
       @include max-screen(767px){
         font-size: 10px;
+        max-width: 100px;
       }
     }
   }
@@ -1786,6 +1788,7 @@ h2{
       color: black;
       @include max-screen(767px){
         font-size: 12px;
+        max-width: 100px;
       }
     }
     p{
@@ -1794,7 +1797,8 @@ h2{
       margin-bottom: 180px;
       @include max-screen(767px){
         font-size: 10px;
-        margin-bottom: 215px;
+        margin-bottom: 165px;
+        max-width: 100px;
       }
     }
   }

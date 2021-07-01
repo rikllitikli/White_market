@@ -1439,13 +1439,15 @@ footer {
         color: black; }
         @media screen and (max-width: 767px) {
           .trainer_map .r_data .left_data h3 {
+            max-width: 100px;
             font-size: 12px; } }
       .trainer_map .r_data .left_data p {
         color: rgba(0, 0, 0, 0.5);
         font-size: 15px; }
         @media screen and (max-width: 767px) {
           .trainer_map .r_data .left_data p {
-            font-size: 10px; } }
+            font-size: 10px;
+            max-width: 100px; } }
     .trainer_map .r_data .right_data {
       padding-top: 53px;
       margin-left: 20px; }
@@ -1455,7 +1457,8 @@ footer {
         color: black; }
         @media screen and (max-width: 767px) {
           .trainer_map .r_data .right_data h3 {
-            font-size: 12px; } }
+            font-size: 12px;
+            max-width: 100px; } }
       .trainer_map .r_data .right_data p {
         color: rgba(0, 0, 0, 0.5);
         font-size: 15px;
@@ -1463,6 +1466,7 @@ footer {
         @media screen and (max-width: 767px) {
           .trainer_map .r_data .right_data p {
             font-size: 10px;
-            margin-bottom: 215px; } }
+            margin-bottom: 165px;
+            max-width: 100px; } }
 
 /*# sourceMappingURL=style.css.map */

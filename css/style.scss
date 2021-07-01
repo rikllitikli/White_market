@@ -15,14 +15,8 @@
 }
 
 .tradingview-widget-container{
-@include max-screen(767px){
-    margin-bottom: 25px;
-  }
-}
+  margin-bottom: -32px;
 
-
-.adaptive_viget{
-  height: 74px!important;
 }
 
 
@@ -829,6 +823,11 @@ h1{
 .i_instagram{
   background-color: black;
   padding: 135px 0;
+}
+
+.i_instagram_witch{
+  max-width: 1000px;
+  margin: auto;
 }
 
 .about_screen_one{

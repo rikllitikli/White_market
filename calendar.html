@@ -12,41 +12,41 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="tradingview-widget-container" style="width: 100%; height: 46px;"><style>
-    .tradingview-widget-copyright {
-        font-size: 13px !important;
-        line-height: 32px !important;
-        text-align: center !important;
-        vertical-align: middle !important;
-        font-family: 'Trebuchet MS', Arial, sans-serif !important;
-        color: #9db2bd !important;
-    }
-
-    .tradingview-widget-copyright .blue-text {
-        color: #2962FF !important;
-    }
-
-    .tradingview-widget-copyright a {
-        text-decoration: none !important;
-        color: #9db2bd !important;
-    }
-
-    .tradingview-widget-copyright a:visited {
-        color: #9db2bd !important;
-    }
-
-    .tradingview-widget-copyright a:hover .blue-text {
-        color: #1E53E5 !important;
-    }
-
-    .tradingview-widget-copyright a:active .blue-text {
-        color: #1848CC !important;
-    }
-
-    .tradingview-widget-copyright a:visited .blue-text {
-        color: #2962FF !important;
-    }
-</style><iframe class="adaptive_viget" scrolling="no" allowtransparency="true" frameborder="0" src="https://s.tradingview.com/embed-widget/ticker-tape/?locale=ru#%7B%22symbols%22%3A%5B%7B%22proName%22%3A%22OANDA%3ASPX500USD%22%2C%22title%22%3A%22S%26P%20500%22%7D%2C%7B%22proName%22%3A%22OANDA%3ANAS100USD%22%2C%22title%22%3A%22NASDAQ%20100%22%7D%2C%7B%22proName%22%3A%22FX_IDC%3AEURUSD%22%2C%22title%22%3A%22EUR%2FUSD%22%7D%2C%7B%22proName%22%3A%22BITSTAMP%3ABTCUSD%22%2C%22title%22%3A%22BTC%2FUSD%22%7D%2C%7B%22proName%22%3A%22BITSTAMP%3AETHUSD%22%2C%22title%22%3A%22ETH%2FUSD%22%7D%5D%2C%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Afalse%2C%22displayMode%22%3A%22adaptive%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A46%2C%22utm_source%22%3A%22www.whitemarket.pro%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22ticker-tape%22%7D" style="box-sizing: border-box; height: 46px; width: 100%;"></iframe></div>
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://ru.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Финансовые рынки</span></a> от TradingView</div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+        {
+            "symbols": [
+            {
+                "proName": "FOREXCOM:SPXUSD",
+                "title": "S&P 500"
+            },
+            {
+                "proName": "FOREXCOM:NSXUSD",
+                "title": "NASDAQ 100"
+            },
+            {
+                "proName": "FX_IDC:EURUSD",
+                "title": "EUR/USD"
+            },
+            {
+                "proName": "BITSTAMP:BTCUSD",
+                "title": "BTC/USD"
+            },
+            {
+                "proName": "BITSTAMP:ETHUSD",
+                "title": "ETH/USD"
+            }
+        ],
+            "showSymbolLogo": false,
+            "colorTheme": "dark",
+            "isTransparent": false,
+            "displayMode": "adaptive",
+            "locale": "ru"
+        }
+    </script>
+</div>
 <header>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">

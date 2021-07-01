@@ -2,12 +2,8 @@
   margin: 0;
   padding: 0; }
 
-@media screen and (max-width: 767px) {
-  .tradingview-widget-container {
-    margin-bottom: 25px; } }
-
-.adaptive_viget {
-  height: 74px !important; }
+.tradingview-widget-container {
+  margin-bottom: -32px; }
 
 .bg-light {
   padding: 9px 0;
@@ -677,6 +673,10 @@ footer {
 .i_instagram {
   background-color: black;
   padding: 135px 0; }
+
+.i_instagram_witch {
+  max-width: 1000px;
+  margin: auto; }
 
 .about_screen_one {
   background-image: url("../img/about_screen_one.jpg");

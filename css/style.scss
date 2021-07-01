@@ -18,7 +18,12 @@
   margin-bottom: -32px;
 
 }
-
+header{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
 
 .bg-light{
   padding: 9px 0;

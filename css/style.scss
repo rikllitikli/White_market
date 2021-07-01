@@ -14,8 +14,16 @@
   font-weight: bold;
 }
 
+.tradingview-widget-container{
+@include max-screen(767px){
+    margin-bottom: 25px;
+  }
+}
 
 
+.adaptive_viget{
+  height: 74px!important;
+}
 
 
 .bg-light{

@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0; }
 
+@media screen and (max-width: 767px) {
+  .tradingview-widget-container {
+    margin-bottom: 25px; } }
+
+.adaptive_viget {
+  height: 74px !important; }
+
 .bg-light {
   padding: 9px 0;
   background: #000000 !important; }

@@ -1335,6 +1335,7 @@ footer {
     border-radius: 10px; }
     @media screen and (max-width: 767px) {
       .trainer_screen_three .t_video {
+        height: 221px;
         margin-bottom: 30px; } }
   .trainer_screen_three h2 {
     font-size: 25px;

@@ -1646,6 +1646,7 @@ a{
     color: red;
     border-radius: 10px;
     @include max-screen(767px){
+      height: 221px;
       margin-bottom: 30px;
     }
 

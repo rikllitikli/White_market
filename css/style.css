@@ -1039,7 +1039,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 30px; }
-    .k_screen_two .k_flex_container .k_content {
+    .k_screen_two .k_flex_container .k_content_1 {
       width: 100%;
       background-color: #F8F8F8;
       border-top-right-radius: 10px;
@@ -1049,24 +1049,132 @@ footer {
       align-items: center;
       padding: 24px 25px; }
       @media screen and (max-width: 540px) {
-        .k_screen_two .k_flex_container .k_content {
+        .k_screen_two .k_flex_container .k_content_1 {
           display: block; } }
-      .k_screen_two .k_flex_container .k_content .finance {
+      .k_screen_two .k_flex_container .k_content_1 .finance {
         display: flex;
         margin-bottom: 20px; }
-        .k_screen_two .k_flex_container .k_content .finance img {
+        .k_screen_two .k_flex_container .k_content_1 .finance svg {
+          fill: black;
+          margin-right: 25px; }
+        .k_screen_two .k_flex_container .k_content_1 .finance img {
           max-width: 50px;
           width: 100%;
           max-height: 50px;
           height: 100%;
           margin-right: 25px; }
-        .k_screen_two .k_flex_container .k_content .finance h4 {
+        .k_screen_two .k_flex_container .k_content_1 .finance h4 {
           color: black;
           font-size: 20px; }
-        .k_screen_two .k_flex_container .k_content .finance p {
+        .k_screen_two .k_flex_container .k_content_1 .finance p {
           font-size: 15px;
           color: rgba(0, 0, 0, 0.5);
           margin-bottom: 0; }
+    .k_screen_two .k_flex_container .k_content_2 {
+      width: 100%;
+      background-color: #F8F8F8;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 25px; }
+      @media screen and (max-width: 540px) {
+        .k_screen_two .k_flex_container .k_content_2 {
+          display: block; } }
+      .k_screen_two .k_flex_container .k_content_2 .finance {
+        display: flex;
+        margin-bottom: 20px; }
+        .k_screen_two .k_flex_container .k_content_2 .finance svg {
+          fill: black;
+          margin-right: 25px; }
+        .k_screen_two .k_flex_container .k_content_2 .finance img {
+          max-width: 50px;
+          width: 100%;
+          max-height: 50px;
+          height: 100%;
+          margin-right: 25px; }
+        .k_screen_two .k_flex_container .k_content_2 .finance h4 {
+          color: black;
+          font-size: 20px; }
+        .k_screen_two .k_flex_container .k_content_2 .finance p {
+          font-size: 15px;
+          color: rgba(0, 0, 0, 0.5);
+          margin-bottom: 0; }
+    .k_screen_two .k_flex_container .k_content_2:hover svg {
+      fill: #F7931B;
+      transition: 0.3s; }
+    .k_screen_two .k_flex_container .k_content_3 {
+      width: 100%;
+      background-color: #F8F8F8;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 25px; }
+      @media screen and (max-width: 540px) {
+        .k_screen_two .k_flex_container .k_content_3 {
+          display: block; } }
+      .k_screen_two .k_flex_container .k_content_3 .finance {
+        display: flex;
+        margin-bottom: 20px; }
+        .k_screen_two .k_flex_container .k_content_3 .finance svg {
+          fill: black;
+          margin-right: 25px; }
+        .k_screen_two .k_flex_container .k_content_3 .finance img {
+          max-width: 50px;
+          width: 100%;
+          max-height: 50px;
+          height: 100%;
+          margin-right: 25px; }
+        .k_screen_two .k_flex_container .k_content_3 .finance h4 {
+          color: black;
+          font-size: 20px; }
+        .k_screen_two .k_flex_container .k_content_3 .finance p {
+          font-size: 15px;
+          color: rgba(0, 0, 0, 0.5);
+          margin-bottom: 0; }
+    .k_screen_two .k_flex_container .k_content_3:hover svg {
+      transition: 0.3s;
+      fill: #ED1B24; }
+    .k_screen_two .k_flex_container .k_content_4 {
+      width: 100%;
+      background-color: #F8F8F8;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 25px; }
+      @media screen and (max-width: 540px) {
+        .k_screen_two .k_flex_container .k_content_4 {
+          display: block; } }
+      .k_screen_two .k_flex_container .k_content_4 .finance {
+        display: flex;
+        margin-bottom: 20px; }
+        .k_screen_two .k_flex_container .k_content_4 .finance svg {
+          fill: black;
+          margin-right: 25px; }
+        .k_screen_two .k_flex_container .k_content_4 .finance img {
+          max-width: 50px;
+          width: 100%;
+          max-height: 50px;
+          height: 100%;
+          margin-right: 25px; }
+        .k_screen_two .k_flex_container .k_content_4 .finance h4 {
+          color: black;
+          font-size: 20px; }
+        .k_screen_two .k_flex_container .k_content_4 .finance p {
+          font-size: 15px;
+          color: rgba(0, 0, 0, 0.5);
+          margin-bottom: 0; }
+    .k_screen_two .k_flex_container .k_content_4:hover svg {
+      transition: 0.3s;
+      fill: #0B9344; }
+    .k_screen_two .k_flex_container .k_content_1:hover svg {
+      fill: #2B93F3;
+      transition: 0.3s; }
     .k_screen_two .k_flex_container .bottom {
       display: flex;
       justify-content: center; }
@@ -1152,25 +1260,29 @@ footer {
     width: 100%;
     display: block;
     margin-bottom: 46px; }
-  .trainer_screen_one button {
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    background-color: #ED1B24;
-    border-radius: 10px;
-    max-width: 160px;
-    width: 100%;
-    padding: 10px 0;
-    border: none; }
-    @media screen and (max-width: 767px) {
-      .trainer_screen_one button {
-        font-size: 15px; } }
-    @media screen and (max-width: 414px) {
-      .trainer_screen_one button {
-        font-size: 10px; } }
-    @media screen and (max-width: 320px) {
-      .trainer_screen_one button {
-        font-size: 8px; } }
+  .trainer_screen_one .t_botton {
+    display: flex;
+    justify-content: center; }
+    .trainer_screen_one .t_botton p {
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      background-color: #ED1B24;
+      border-radius: 10px;
+      max-width: 160px;
+      width: 100%;
+      padding: 10px 0;
+      border: none; }
+      @media screen and (max-width: 767px) {
+        .trainer_screen_one .t_botton p {
+          font-size: 15px; } }
+      @media screen and (max-width: 414px) {
+        .trainer_screen_one .t_botton p {
+          font-size: 10px; } }
+      @media screen and (max-width: 320px) {
+        .trainer_screen_one .t_botton p {
+          font-size: 8px; } }
 
 .trainer_screen_two {
   padding: 100px 0; }

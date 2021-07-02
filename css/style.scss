@@ -977,6 +977,18 @@ a{
       height: 100%;
     }
     .user_image{
+      background-color: black;
+      max-width: 125px;
+      width: 100%;
+      height: 125px;
+      border-radius: 50%;
+      overflow: hidden;
+      @include max-screen(1200px){
+        height: 100px;
+      }
+      @include max-screen(991px){
+        height: 125px;
+      }
       a{
         display: none;
         background-image: url("../img/Vector_tel.png");
@@ -1018,12 +1030,10 @@ a{
       }
     }
     img{
-      border-radius: 50%;
-      max-width: 150px;
-      width: 100%;
+      width: 150px;
     }
     img:hover{
-      max-width: 155px;
+      width: 160px;
     }
     h3{
       color: white;
@@ -1073,6 +1083,18 @@ a{
     }
   }
   .imag_user{
+      background-color: black;
+    max-width: 125px;
+    width: 100%;
+    height: 125px;
+    border-radius: 50%;
+    overflow: hidden;
+@include max-screen(414px){
+  height: 100px;
+}
+    @include max-screen(320px){
+      height: 80px;
+    }
     a{
       display: none;
       background-image: url("../img/Vector_tel.png");
@@ -1099,18 +1121,20 @@ a{
 
     }
     img {
-      max-width: 125px;
-      width: 100%;
+      width: 135px;
+      position: relative;;
       display: block;
       overflow: hidden;
-      border-radius: 50%;
       margin-bottom: 15px;
       margin-right: auto;
       margin-left: auto;
+      @include max-screen(360px){
+       position: relative;
+        right: 15px;
+      }
     }
     img:hover {
-      max-width: 130px;
-     width: 100%;
+      width: 145px;
       transition: 0.3s;
     }
   }
@@ -1238,6 +1262,9 @@ a{
     color: white;
     margin-bottom: 50px;
     font-weight: bold;
+  }
+  .calendar{
+    margin: auto;
   }
 }
 

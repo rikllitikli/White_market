@@ -804,47 +804,58 @@ footer {
         padding: 15px;
         max-height: 150px;
         height: 100%; } }
-    .about_screen_three .a_comand .user_image a {
-      display: none;
-      background-image: url("../img/Vector_tel.png");
-      padding: 8px 10px 26px;
-      position: absolute;
-      right: -50px;
-      top: -60px;
-      width: 107px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      font-size: 15px;
-      text-decoration: none;
-      color: black; }
+    .about_screen_three .a_comand .user_image {
+      background-color: black;
+      max-width: 125px;
+      width: 100%;
+      height: 125px;
+      border-radius: 50%;
+      overflow: hidden; }
       @media screen and (max-width: 1200px) {
-        .about_screen_three .a_comand .user_image a {
-          position: absolute;
-          right: -35px;
-          top: -70px; } }
-      @media screen and (max-width: 992px) {
-        .about_screen_three .a_comand .user_image a {
-          position: absolute;
-          right: 80px; } }
-      @media screen and (max-width: 767px) {
-        .about_screen_three .a_comand .user_image a {
-          position: absolute;
-          right: -45px;
-          top: -53px;
-          font-size: 10px;
-          width: 87px; } }
-      @media screen and (max-width: 320px) {
-        .about_screen_three .a_comand .user_image a {
-          position: absolute;
-          right: -10px; } }
+        .about_screen_three .a_comand .user_image {
+          height: 100px; } }
+      @media screen and (max-width: 991px) {
+        .about_screen_three .a_comand .user_image {
+          height: 125px; } }
+      .about_screen_three .a_comand .user_image a {
+        display: none;
+        background-image: url("../img/Vector_tel.png");
+        padding: 8px 10px 26px;
+        position: absolute;
+        right: -50px;
+        top: -60px;
+        width: 107px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        font-size: 15px;
+        text-decoration: none;
+        color: black; }
+        @media screen and (max-width: 1200px) {
+          .about_screen_three .a_comand .user_image a {
+            position: absolute;
+            right: -35px;
+            top: -70px; } }
+        @media screen and (max-width: 992px) {
+          .about_screen_three .a_comand .user_image a {
+            position: absolute;
+            right: 80px; } }
+        @media screen and (max-width: 767px) {
+          .about_screen_three .a_comand .user_image a {
+            position: absolute;
+            right: -45px;
+            top: -53px;
+            font-size: 10px;
+            width: 87px; } }
+        @media screen and (max-width: 320px) {
+          .about_screen_three .a_comand .user_image a {
+            position: absolute;
+            right: -10px; } }
     .about_screen_three .a_comand .user_image:hover a {
       display: block; }
     .about_screen_three .a_comand img {
-      border-radius: 50%;
-      max-width: 150px;
-      width: 100%; }
+      width: 150px; }
     .about_screen_three .a_comand img:hover {
-      max-width: 155px; }
+      width: 160px; }
     .about_screen_three .a_comand h3 {
       color: white;
       font-size: 25px;
@@ -884,42 +895,57 @@ footer {
       .about_screen_three .a_comand:hover {
         max-height: 170px;
         width: 100%; } }
-  .about_screen_three .imag_user a {
-    display: none;
-    background-image: url("../img/Vector_tel.png");
-    padding: 8px 10px 26px;
-    position: absolute;
-    right: -35px;
-    top: -60px;
-    width: 107px;
-    text-align: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    font-size: 15px;
-    text-decoration: none;
-    color: black; }
-    @media screen and (max-width: 992px) {
-      .about_screen_three .imag_user a {
-        position: absolute;
-        top: -70px;
-        right: 0; } }
-    @media screen and (max-width: 414px) {
-      .about_screen_three .imag_user a {
-        width: 87px;
-        font-size: 10px; } }
-  .about_screen_three .imag_user img {
+  .about_screen_three .imag_user {
+    background-color: black;
     max-width: 125px;
     width: 100%;
-    display: block;
-    overflow: hidden;
+    height: 125px;
     border-radius: 50%;
-    margin-bottom: 15px;
-    margin-right: auto;
-    margin-left: auto; }
-  .about_screen_three .imag_user img:hover {
-    max-width: 130px;
-    width: 100%;
-    transition: 0.3s; }
+    overflow: hidden; }
+    @media screen and (max-width: 414px) {
+      .about_screen_three .imag_user {
+        height: 100px; } }
+    @media screen and (max-width: 320px) {
+      .about_screen_three .imag_user {
+        height: 80px; } }
+    .about_screen_three .imag_user a {
+      display: none;
+      background-image: url("../img/Vector_tel.png");
+      padding: 8px 10px 26px;
+      position: absolute;
+      right: -35px;
+      top: -60px;
+      width: 107px;
+      text-align: left;
+      background-repeat: no-repeat;
+      background-size: contain;
+      font-size: 15px;
+      text-decoration: none;
+      color: black; }
+      @media screen and (max-width: 992px) {
+        .about_screen_three .imag_user a {
+          position: absolute;
+          top: -70px;
+          right: 0; } }
+      @media screen and (max-width: 414px) {
+        .about_screen_three .imag_user a {
+          width: 87px;
+          font-size: 10px; } }
+    .about_screen_three .imag_user img {
+      width: 135px;
+      position: relative;
+      display: block;
+      overflow: hidden;
+      margin-bottom: 15px;
+      margin-right: auto;
+      margin-left: auto; }
+      @media screen and (max-width: 360px) {
+        .about_screen_three .imag_user img {
+          position: relative;
+          right: 15px; } }
+    .about_screen_three .imag_user img:hover {
+      width: 145px;
+      transition: 0.3s; }
   .about_screen_three .imag_user:hover a {
     display: block;
     transition: 1s; }
@@ -1018,6 +1044,8 @@ footer {
     color: white;
     margin-bottom: 50px;
     font-weight: bold; }
+  .k_screen_one .calendar {
+    margin: auto; }
 
 .k_screen_two {
   padding: 100px 0; }

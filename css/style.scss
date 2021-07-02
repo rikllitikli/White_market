@@ -9,6 +9,8 @@
   }
 }
 
+
+
 @mixin h2{
   font-size: 25px;
   font-weight: bold;
@@ -17,6 +19,10 @@
 .tradingview-widget-container{
   margin-bottom: -32px;
 
+}
+
+.eapps-link{
+  display: none!important;
 }
 header{
   position: sticky;
@@ -1667,6 +1673,10 @@ a{
   background-position: center;
   background-size: cover;
   padding: 50px 0 67px;
+  .video{
+    max-width: 1700px;
+    margin: auto;
+  }
   .t_video{
     max-width: 786px;
     width: 100%;

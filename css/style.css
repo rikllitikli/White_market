@@ -5,6 +5,9 @@
 .tradingview-widget-container {
   margin-bottom: -32px; }
 
+.eapps-link {
+  display: none !important; }
+
 header {
   position: sticky;
   top: 0;
@@ -1356,6 +1359,9 @@ footer {
   background-position: center;
   background-size: cover;
   padding: 50px 0 67px; }
+  .trainer_screen_three .video {
+    max-width: 1700px;
+    margin: auto; }
   .trainer_screen_three .t_video {
     max-width: 786px;
     width: 100%;

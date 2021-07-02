@@ -34,10 +34,7 @@ header{
 .logo{
   margin-right: 30px;
 }
-.navbar-light .navbar-toggler:hover{
-  background-color: #0B9344!important;
-  transition: 0.3s;
-}
+
 
 .navbar-light .navbar-toggler-icon{
   margin-bottom: 5px;
@@ -46,6 +43,9 @@ header{
   border-radius: 10px;
   display: block;
   background-image: none;
+}
+.navbar-light .navbar-toggler-icon:hover{
+  background-color: #0B9344;
 }
 
 

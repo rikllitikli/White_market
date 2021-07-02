@@ -866,11 +866,15 @@ h1{
   width: 100%;
   border-radius: 10px;
   margin-bottom: 20px;
-
+a{
+  text-transform: none;
+  text-decoration: none;
+}
   h3{
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
+    color: black;
   }
   p{
     font-size: 15px;
@@ -1641,6 +1645,9 @@ h1{
     height: 442px;
     color: red;
     border-radius: 10px;
+    @include max-screen(767px){
+      margin-bottom: 30px;
+    }
 
   }
   h2{

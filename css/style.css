@@ -455,7 +455,8 @@ footer {
       position: absolute;
       top: 0;
       right: 15px;
-      border-bottom-left-radius: 10px; }
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 10px; }
     .market_price .m_price h3 {
       font-size: 19px;
       color: white; }

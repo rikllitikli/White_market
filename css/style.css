@@ -361,12 +361,23 @@ header {
 footer {
   background: #222222;
   padding: 50px 0; }
+  footer .fot {
+    max-width: 1300px;
+    margin: auto; }
   footer .footer_content {
     margin-bottom: 30px; }
+  footer h3 {
+    color: #828282;
+    font-size: 20px;
+    margin-bottom: 30px; }
   footer p {
-    color: white;
+    color: #828282;
     font-size: 15px;
     line-height: 18px; }
+  footer img {
+    position: relative;
+    bottom: 7px;
+    right: 7px; }
   footer i {
     font-size: 30px;
     margin-right: 15px;
@@ -551,6 +562,11 @@ footer {
 
 .index_screen_two {
   padding: 100px 0 86px; }
+  .index_screen_two .hover:hover {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 10px 5px #92929240;
+    transition: 0.3s; }
   .index_screen_two h2 {
     font-size: 25px;
     font-weight: bold;
@@ -559,6 +575,8 @@ footer {
       .index_screen_two h2 {
         font-size: 15px; } }
   .index_screen_two img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     width: 100%; }
 
 .i_details {
@@ -613,9 +631,43 @@ footer {
 
 .i_partners {
   padding-bottom: 97px; }
+  .i_partners .w_partners div:nth-child(1) a img {
+    max-width: 179px;
+    width: 100%; }
+  .i_partners .w_partners div:nth-child(2) a img {
+    max-width: 170px;
+    width: 100%; }
+  .i_partners .w_partners div:nth-child(3) a img {
+    max-width: 185px;
+    width: 100%; }
+  .i_partners .w_partners div:nth-child(4) a img {
+    max-width: 245px;
+    width: 100%; }
+  .i_partners .w_partners div:nth-child(5) a img {
+    max-width: 176px;
+    width: 100%; }
+  .i_partners .w_partners div:nth-child(6) a img {
+    max-width: 103px;
+    width: 100%; }
+  .i_partners .w_partners div:nth-child(7) a img {
+    max-width: 245px;
+    width: 100%; }
+  .i_partners .w_partners div:nth-child(8) a img {
+    max-width: 216px;
+    width: 100%; }
+  .i_partners .w_partners div:nth-child(9) a img {
+    max-width: 91px;
+    width: 100%; }
+  .i_partners .w_partners div:nth-child(10) a img {
+    max-width: 237px;
+    width: 100%; }
+  .i_partners .w_partners div:nth-child(11) a img {
+    position: relative;
+    top: 17px;
+    left: 15px;
+    max-width: 144px;
+    width: 100%; }
   .i_partners img {
-    max-width: 150px;
-    width: 100%;
     margin-bottom: 30px; }
   .i_partners h2 {
     font-size: 25px;
@@ -1155,27 +1207,23 @@ footer {
   background-position: center;
   background-size: cover;
   padding: 50px 0 67px; }
-  @media screen and (max-width: 767px) {
-    .trainer_screen_three .adaptive_video {
-      margin-bottom: 30px; }
-      .trainer_screen_three .adaptive_video .t_video {
-        position: static; } }
   .trainer_screen_three .t_video {
-    max-height: 381px;
-    height: 100%; }
+    max-height: 786px;
+    width: 100%;
+    height: 442px;
+    color: red;
+    border-radius: 10px; }
   .trainer_screen_three h2 {
     font-size: 25px;
-    color: white;
     font-weight: bold;
-    margin-bottom: 50px; }
-    @media screen and (max-width: 767px) {
-      .trainer_screen_three h2 {
-        display: none; } }
+    margin-bottom: 50px;
+    color: white; }
   .trainer_screen_three img {
     max-width: 50px;
     width: 100%;
     max-height: 50px;
-    height: 100%; }
+    height: 100%;
+    margin-right: 26px; }
   .trainer_screen_three h3 {
     font-size: 20px;
     color: white;
@@ -1183,8 +1231,7 @@ footer {
   .trainer_screen_three p {
     font-size: 15px;
     color: white;
-    margin-bottom: 30px;
-    max-width: 285px; }
+    margin-bottom: 30px; }
 
 .trainer_screen_four {
   padding: 100px 0 70px; }
@@ -1354,6 +1401,7 @@ footer {
       color: white;
       font-size: 20px; }
   .trainer_screen_six .t_prie {
+    text-align: left;
     box-shadow: 0px 0px 10px 0px #92929240;
     padding: 25px;
     min-height: 663px;
@@ -1363,19 +1411,49 @@ footer {
     margin-bottom: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px; }
-    .trainer_screen_six .t_prie .hov_trainer {
-      display: none; }
-  .trainer_screen_six .t_prie:hover {
-    transition: 1s; }
-    .trainer_screen_six .t_prie:hover .hov {
-      margin: 0;
-      transition: 0.3s; }
-    .trainer_screen_six .t_prie:hover .hov_trainer {
-      display: block;
-      transition: 0.3s; }
+  .trainer_screen_six .text_q {
+    position: relative;
+    bottom: 20px;
+    display: none; }
+  .trainer_screen_six .text_w {
+    position: relative;
+    bottom: 20px;
+    display: none; }
+  .trainer_screen_six .text_e {
+    position: relative;
+    bottom: 20px;
+    display: none; }
+  .trainer_screen_six .text_r {
+    position: relative;
+    bottom: 20px;
+    display: none; }
+  .trainer_screen_six .text_t {
+    position: relative;
+    bottom: 20px;
+    display: none; }
+  .trainer_screen_six .text_y {
+    position: relative;
+    bottom: 20px;
+    display: none; }
+  .trainer_screen_six .text_u {
+    position: relative;
+    bottom: 20px;
+    display: none; }
+  .trainer_screen_six .text_i {
+    position: relative;
+    bottom: 20px;
+    display: none; }
+  .trainer_screen_six .text_o {
+    position: relative;
+    bottom: 20px;
+    display: none; }
   .trainer_screen_six .price_content p {
     font-size: 15px;
     line-height: 24px; }
+    .trainer_screen_six .price_content p a {
+      text-decoration: none;
+      text-transform: none;
+      color: black; }
     .trainer_screen_six .price_content p span {
       color: red; }
   .trainer_screen_six .buy p {

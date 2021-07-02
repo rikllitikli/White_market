@@ -434,13 +434,27 @@ header{
 footer{
   background: #222222;
   padding: 50px 0;
+  .fot{
+    max-width: 1300px;
+    margin: auto;
+  }
   .footer_content{
     margin-bottom: 30px;
   }
+  h3{
+    color: #828282;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
   p{
-    color: white;
+    color: #828282;
     font-size: 15px;
     line-height: 18px;
+  }
+  img{
+    position: relative;
+    bottom: 7px;
+    right: 7px;
   }
   i{
     font-size: 30px;
@@ -674,6 +688,12 @@ h1{
 
 .index_screen_two{
   padding: 100px 0 86px;
+  .hover:hover{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 10px 5px #92929240;
+    transition: 0.3s;
+  }
   h2{
     @include h2;
     margin-bottom: 61px;
@@ -682,6 +702,8 @@ h1{
     }
   }
   img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     width: 100%;
   }
 }
@@ -751,9 +773,54 @@ h1{
 
 .i_partners{
   padding-bottom: 97px;
-  img{
-    max-width: 150px;
+  .w_partners div:nth-child(1) a img{
+    max-width: 179px;
     width: 100%;
+  }
+  .w_partners div:nth-child(2) a img{
+    max-width: 170px;
+    width: 100%;
+  }
+  .w_partners div:nth-child(3) a img{
+    max-width: 185px;
+    width: 100%;
+  }
+  .w_partners div:nth-child(4) a img{
+    max-width: 245px;
+    width: 100%;
+  }
+  .w_partners div:nth-child(5) a img{
+    max-width: 176px;
+    width: 100%;
+  }
+  .w_partners div:nth-child(6) a img{
+    max-width: 103px;
+    width: 100%;
+  }
+  .w_partners div:nth-child(7) a img{
+    max-width: 245px;
+    width: 100%;
+  }
+  .w_partners div:nth-child(8) a img{
+    max-width: 216px;
+    width: 100%;
+  }
+  .w_partners div:nth-child(9) a img{
+    max-width: 91px;
+    width: 100%;
+  }
+  .w_partners div:nth-child(10) a img{
+    max-width: 237px;
+    width: 100%;
+  }
+  .w_partners div:nth-child(11) a img{
+    position: relative;
+    top: 17px;
+    left: 15px;
+    max-width: 144px;
+    width: 100%;
+  }
+  img{
     margin-bottom: 30px;
   }
   h2{
@@ -1412,32 +1479,25 @@ h1{
   background-position: center;
   background-size: cover;
   padding: 50px 0 67px;
-  @include max-screen(767px){
-    .adaptive_video{
-      margin-bottom: 30px;
-      .t_video{
-        position: static;
-      }
-    }
-  }
   .t_video{
-    max-height: 381px;
-    height: 100%;
+    max-height: 786px;
+    width: 100%;
+    height: 442px;
+    color: red;
+    border-radius: 10px;
+
   }
   h2{
-    font-size: 25px;
-    color: white;
-    font-weight: bold;
+   @include h2;
     margin-bottom: 50px;
-    @include max-screen(767px){
-      display: none;
-    }
+    color: white;
   }
   img{
     max-width: 50px;
     width: 100%;
     max-height: 50px;
     height: 100%;
+    margin-right: 26px;
   }
   h3{
     font-size: 20px;
@@ -1448,7 +1508,6 @@ h1{
     font-size: 15px;
     color: white;
     margin-bottom: 30px;
-    max-width: 285px;
   }
 }
 
@@ -1656,6 +1715,7 @@ h2{
     }
   }
   .t_prie{
+    text-align: left;
     box-shadow: 0px 0px 10px 0px #92929240;
     padding: 25px;
     min-height: 663px;
@@ -1665,24 +1725,62 @@ h2{
     margin-bottom: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    .hov_trainer{
-      display: none;
-    }
   }
-  .t_prie:hover{
-    transition: 1s;
-    .hov{
-      margin: 0;
-      transition: 0.3s;
-    }
-    .hov_trainer{
-      display: block;
-      transition: 0.3s;
-    }
+
+.text_q{
+  position: relative;
+  bottom: 20px;
+  display: none;
+}
+  .text_w{
+    position: relative;
+    bottom: 20px;
+    display: none;
   }
+  .text_e{
+    position: relative;
+    bottom: 20px;
+    display: none;
+  }
+  .text_r{
+    position: relative;
+    bottom: 20px;
+    display: none;
+  }
+  .text_t{
+    position: relative;
+    bottom: 20px;
+    display: none;
+  }
+  .text_y{
+    position: relative;
+    bottom: 20px;
+    display: none;
+  }
+  .text_u{
+    position: relative;
+    bottom: 20px;
+    display: none;
+  }
+  .text_i{
+    position: relative;
+    bottom: 20px;
+    display: none;
+  }
+  .text_o{
+    position: relative;
+    bottom: 20px;
+    display: none;
+  }
+
 
   .price_content{
     p{
+      a{
+text-decoration: none;
+        text-transform: none;
+        color: black;
+      }
       font-size: 15px;
       line-height: 24px;
       span{

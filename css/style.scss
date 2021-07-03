@@ -1741,6 +1741,7 @@ a{
   h2{
    @include h2;
     margin-bottom: 50px;
+    text-transform: uppercase;
     color: white;
   }
   img{
@@ -2065,6 +2066,12 @@ text-decoration: none;
   background-color: #343434;
   padding: 50px 0 50px;
   text-align: center;
+  h2{
+    @include h2;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
   img{
     margin-bottom: 20px;
   }
@@ -2155,6 +2162,9 @@ text-decoration: none;
         max-width: 100px;
       }
     }
+  }
+  .right_data div:nth-last-child(1) p{
+    margin-bottom: 0;
   }
 }
 

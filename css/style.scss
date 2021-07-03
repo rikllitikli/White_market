@@ -591,23 +591,37 @@ footer{
   transition: 0.5s;
 }
 
-.index_screen_one{
-  background-image: url("../img/1WM.jpg");
+.index_slide_one{
+  background-image: url("../img/1WM.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  padding: 216px 0 241px;
-
-h1{
-  color: white;
-  font-size: 50px;
-  font-weight: bold;
-  margin-bottom: 25px;
-  @include max-screen(767px){
-    font-size: 20px;
-    line-height: 24px;
-  }
+  padding: 303px 0 182px;
 }
+
+
+.index_slide_two{
+  background-image: url("../img/2WM.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding: 235px 0 182px;
+}
+
+
+
+
+.carusel_i{
+  h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    @include max-screen(767px){
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
   a{
     font-weight: bold;
     color: white;
@@ -623,9 +637,6 @@ h1{
     box-shadow: 0px 4px 4px 0px #00000040;
     transition: 0.3s;
   }
-}
-
-.carusel_i{
   .owl-nav {
     position: absolute;
     top: 274px;

@@ -508,6 +508,7 @@ footer {
         font-size: 20px;
         line-height: 24px; } }
   .index_slide_one a {
+    text-transform: uppercase;
     font-weight: bold;
     color: white;
     background-color: #0B9444;
@@ -538,6 +539,7 @@ footer {
         font-size: 20px;
         line-height: 24px; } }
   .index_slide_two a {
+    text-transform: uppercase;
     font-weight: bold;
     color: white;
     background-color: #0B9444;
@@ -606,6 +608,8 @@ footer {
   .index_screen_two .hover:hover {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     box-shadow: 0px 0px 10px 5px #92929240;
     transition: 0.3s; }
   .index_screen_two h2 {
@@ -622,7 +626,9 @@ footer {
 
 .i_details {
   background-color: #FAFAFA;
-  padding: 20px; }
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
   .i_details h3 {
     font-size: 15px;
     font-weight: bold;
@@ -631,8 +637,9 @@ footer {
   .i_details h4 {
     font-size: 15px;
     color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 15px; }
+    margin-bottom: 23px; }
   .i_details a {
+    font-weight: bold;
     padding: 8px 27px;
     border-radius: 10px;
     color: #0B9344;
@@ -668,7 +675,9 @@ footer {
     background-image: url("../img/i_video.png");
     width: 100%;
     background-size: cover;
-    background-position: center; }
+    background-position: center;
+    max-height: 540px !important;
+    height: 100%; }
 
 .i_partners {
   padding-bottom: 97px; }
@@ -680,7 +689,9 @@ footer {
     width: 100%; }
   .i_partners .w_partners div:nth-child(3) a img {
     max-width: 185px;
-    width: 100%; }
+    width: 100%;
+    position: relative;
+    right: 10px; }
   .i_partners .w_partners div:nth-child(4) a img {
     max-width: 245px;
     width: 100%; }
@@ -691,7 +702,7 @@ footer {
     max-width: 103px;
     width: 100%; }
   .i_partners .w_partners div:nth-child(7) a img {
-    max-width: 245px;
+    max-width: 200px;
     width: 100%; }
   .i_partners .w_partners div:nth-child(8) a img {
     max-width: 216px;
@@ -774,8 +785,7 @@ footer {
     color: #0B9344; }
 
 .i_instagram {
-  background-color: black;
-  padding: 135px 0; }
+  background-color: black; }
 
 .i_instagram_witch {
   max-width: 1000px;

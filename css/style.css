@@ -497,6 +497,29 @@ footer {
   background-size: cover;
   background-position: center top;
   padding: 303px 0 182px; }
+  .index_slide_one h1 {
+    line-height: 96px;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 25px; }
+    @media screen and (max-width: 767px) {
+      .index_slide_one h1 {
+        font-size: 20px;
+        line-height: 24px; } }
+  .index_slide_one a {
+    font-weight: bold;
+    color: white;
+    background-color: #0B9444;
+    padding: 10px 42px;
+    width: 190px;
+    border-radius: 10px;
+    margin: auto;
+    text-decoration: none;
+    text-align: center; }
+  .index_slide_one a:hover {
+    box-shadow: 0px 0px 10px 0px #FFFFFF;
+    transition: 0.3s; }
 
 .index_slide_two {
   background-image: url("../img/2WM.jpg");
@@ -504,42 +527,45 @@ footer {
   background-size: cover;
   background-position: center top;
   padding: 235px 0 182px; }
+  .index_slide_two h1 {
+    line-height: 88px;
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 25px; }
+    @media screen and (max-width: 767px) {
+      .index_slide_two h1 {
+        font-size: 20px;
+        line-height: 24px; } }
+  .index_slide_two a {
+    font-weight: bold;
+    color: white;
+    background-color: #0B9444;
+    padding: 10px 42px;
+    width: 190px;
+    border-radius: 10px;
+    margin: auto;
+    text-decoration: none;
+    text-align: center; }
+  .index_slide_two a:hover {
+    box-shadow: 0px 0px 10px 0px #FFFFFF;
+    transition: 0.3s; }
 
-.carusel_i h1 {
-  color: white;
-  font-size: 60px;
-  font-weight: 600;
-  margin-bottom: 25px; }
-  @media screen and (max-width: 767px) {
-    .carusel_i h1 {
-      font-size: 20px;
-      line-height: 24px; } }
-.carusel_i a {
-  font-weight: bold;
-  color: white;
-  background-color: #0B9444;
-  padding: 10px 42px;
-  width: 190px;
-  border-radius: 10px;
-  margin: auto;
-  text-decoration: none;
-  text-align: center; }
-.carusel_i a:hover {
-  box-shadow: 0px 0px 10px 0px #FFFFFF;
-  transition: 0.3s; }
 .carusel_i .owl-nav {
   position: absolute;
   top: 274px;
   width: 100%; }
 .carusel_i .owl-nav .owl-next {
   position: absolute;
-  right: 30px; }
+  right: 30px;
+  bottom: -180px; }
   @media screen and (max-width: 411px) {
     .carusel_i .owl-nav .owl-next {
       right: 10px; } }
 .carusel_i .owl-nav .owl-prev {
   position: absolute;
-  left: 30px; }
+  left: 30px;
+  bottom: -180px; }
   @media screen and (max-width: 411px) {
     .carusel_i .owl-nav .owl-prev {
       left: 10px; } }

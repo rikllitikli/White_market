@@ -597,22 +597,8 @@ footer{
   background-size: cover;
   background-position: center top;
   padding: 303px 0 182px;
-}
-
-
-.index_slide_two{
-  background-image: url("../img/2WM.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-  padding: 235px 0 182px;
-}
-
-
-
-
-.carusel_i{
   h1{
+    line-height: 96px;
     color: white;
     font-size: 60px;
     font-weight: 600;
@@ -637,6 +623,47 @@ footer{
     box-shadow: 0px 0px 10px 0px #FFFFFF;
     transition: 0.3s;
   }
+}
+
+
+.index_slide_two{
+  background-image: url("../img/2WM.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding: 235px 0 182px;
+  h1{
+    line-height: 88px;
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    @include max-screen(767px){
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  a{
+    font-weight: bold;
+    color: white;
+    background-color: #0B9444;
+    padding: 10px 42px;
+    width: 190px;
+    border-radius: 10px;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+  }
+  a:hover{
+    box-shadow: 0px 0px 10px 0px #FFFFFF;
+    transition: 0.3s;
+  }
+}
+
+
+
+
+.carusel_i{
   .owl-nav {
     position: absolute;
     top: 274px;
@@ -648,6 +675,7 @@ footer{
   .owl-nav .owl-next {
     position: absolute;
     right: 30px;
+    bottom: -180px;
     @include max-screen(411px){
       right: 10px;
     }
@@ -656,6 +684,7 @@ footer{
   .owl-nav .owl-prev {
     position: absolute;
     left: 30px;
+    bottom: -180px;
     @include max-screen(411px){
       left: 10px;
     }

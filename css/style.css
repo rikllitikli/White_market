@@ -430,7 +430,7 @@ footer {
     border-radius: 3%; }
 
 .market_price {
-  background-image: url("../img/back_m_price.jpg");
+  background-image: url("../img/back_m_price.png");
   padding: 50px 0 60px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -467,7 +467,12 @@ footer {
       font-size: 15px;
       color: white;
       margin-bottom: 20px; }
+    .market_price .m_price .anime_botton:hover {
+      animation-name: pulse; }
     .market_price .m_price a {
+      color: #0B9344;
+      font-size: 20px;
+      font-weight: bold;
       background-color: #E6FDEF;
       padding: 10px 50px;
       border-radius: 10px;
@@ -488,6 +493,7 @@ footer {
         font-weight: normal; }
 
 .m_price:hover {
+  box-shadow: 0px 0px 10px 5px white;
   height: 197px;
   transition: 0.5s; }
 
@@ -519,6 +525,7 @@ footer {
     text-decoration: none;
     text-align: center; }
   .index_slide_one a:hover {
+    animation-name: pulse;
     box-shadow: 0px 0px 10px 0px #FFFFFF;
     transition: 0.3s; }
 
@@ -550,6 +557,7 @@ footer {
     text-decoration: none;
     text-align: center; }
   .index_slide_two a:hover {
+    animation-name: pulse;
     box-shadow: 0px 0px 10px 0px #FFFFFF;
     transition: 0.3s; }
 
@@ -637,7 +645,7 @@ footer {
   .i_details h4 {
     font-size: 15px;
     color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 23px; }
+    margin-bottom: 18px; }
   .i_details a {
     font-weight: bold;
     padding: 8px 27px;
@@ -693,6 +701,8 @@ footer {
     position: relative;
     right: 10px; }
   .i_partners .w_partners div:nth-child(4) a img {
+    position: relative;
+    bottom: 10px;
     max-width: 245px;
     width: 100%; }
   .i_partners .w_partners div:nth-child(5) a img {
@@ -708,6 +718,8 @@ footer {
     max-width: 216px;
     width: 100%; }
   .i_partners .w_partners div:nth-child(9) a img {
+    position: relative;
+    top: 20px;
     max-width: 91px;
     width: 100%; }
   .i_partners .w_partners div:nth-child(10) a img {
@@ -726,6 +738,8 @@ footer {
     font-weight: bold;
     margin-bottom: 49px;
     color: black; }
+  .i_partners .anime_botton:hover {
+    animation-name: pulse; }
   .i_partners .botton_partner {
     color: rgba(0, 0, 0, 0.5);
     padding: 8px 16px;
@@ -1270,6 +1284,7 @@ footer {
         border-radius: 10px;
         text-decoration: none; }
       .k_screen_two .k_flex_container .bottom a:hover {
+        animation-name: pulse;
         background-color: #0B9344;
         color: white;
         transition: 0.3s; }
@@ -1686,6 +1701,8 @@ footer {
     font-size: 15px;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 30px; }
+  .trainer_screen_six .buy .anime_botton:hover {
+    animation-name: pulse; }
   .trainer_screen_six .buy a {
     background-color: #E6FDEF;
     padding: 10px 47px;

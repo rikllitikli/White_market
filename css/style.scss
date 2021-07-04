@@ -520,7 +520,7 @@ footer{
 }
 
 .market_price{
-  background-image: url("../img/back_m_price.jpg");
+  background-image: url("../img/back_m_price.png");
   padding: 50px 0 60px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -560,7 +560,13 @@ footer{
       color: white;
       margin-bottom: 20px;
     }
+    .anime_botton:hover{
+      animation-name: pulse;
+    }
     a{
+      color:#0B9344;
+      font-size: 20px;
+      font-weight: bold;
       background-color: #E6FDEF;
       padding: 10px 50px;
       border-radius: 10px;
@@ -587,6 +593,7 @@ footer{
     }
   }
 .m_price:hover {
+  box-shadow: 0px 0px 10px 5px white;
   height: 197px;
   transition: 0.5s;
 }
@@ -621,6 +628,7 @@ footer{
     text-align: center;
   }
   a:hover{
+    animation-name: pulse; // Predefined in animate.css
     box-shadow: 0px 0px 10px 0px #FFFFFF;
     transition: 0.3s;
   }
@@ -657,6 +665,7 @@ footer{
     text-align: center;
   }
   a:hover{
+    animation-name: pulse; // Predefined in animate.css
     box-shadow: 0px 0px 10px 0px #FFFFFF;
     transition: 0.3s;
   }
@@ -777,7 +786,7 @@ footer{
   h4{
     font-size: 15px;
     color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 23px;
+    margin-bottom: 18px;
   }
   a{
     font-weight: bold;
@@ -847,6 +856,8 @@ footer{
     right: 10px;
   }
   .w_partners div:nth-child(4) a img{
+    position: relative;
+    bottom: 10px;
     max-width: 245px;
     width: 100%;
   }
@@ -867,6 +878,8 @@ footer{
     width: 100%;
   }
   .w_partners div:nth-child(9) a img{
+    position: relative;
+    top: 20px;
     max-width: 91px;
     width: 100%;
   }
@@ -888,6 +901,9 @@ footer{
     @include h2;
     margin-bottom: 49px;
     color: black;
+  }
+  .anime_botton:hover{
+    animation-name: pulse; // Predefined in animate.css
   }
   .botton_partner{
     color: rgba(0, 0, 0, 0.5);
@@ -1555,6 +1571,7 @@ a{
         text-decoration: none;
       }
       a:hover{
+        animation-name: pulse; // Predefined in animate.css
         background-color: #0B9344;
         color: white;
         transition: 0.3s;
@@ -2072,6 +2089,9 @@ text-decoration: none;
       font-size: 15px;
       color: rgba(0, 0, 0, 0.5);
       margin-bottom: 30px;
+    }
+    .anime_botton:hover{
+      animation-name: pulse; // Predefined in animate.css
     }
     a{
       background-color: #E6FDEF;

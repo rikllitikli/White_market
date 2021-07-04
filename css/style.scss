@@ -164,7 +164,7 @@ header{
    margin-bottom: 40px;
    text-align: center;
    @include max-screen(514){
-     margin-bottom: 30px;
+     margin-bottom: 17px;
    }
  }
   .card_{
@@ -228,9 +228,11 @@ header{
       align-items: center;
       position: relative;
       bottom: 76px;
+      width: 388px;
       @include max-screen(1200px){
         position: relative;
         bottom: 34px;
+        width: 318px;
       }
       @include max-screen(991px){
         position: absolute;
@@ -255,13 +257,21 @@ header{
       }
       a{
         color: white;
+        font-weight: bold;
         background-color: #0B9344;
         padding: 10px 43px;
         text-decoration: none;
         display: inline-block;
         border-radius: 10px;
+        @include max-screen(1200px){
+          padding: 10px 33px;
+        }
+        @include max-screen(991px){
+          padding: 10px 43px;
+        }
       }
       a:hover{
+        animation-name: pulse;
         box-shadow: 0px 0px 10px 0px #FFFFFF;
         transition: 0.3s;
       }
@@ -281,7 +291,7 @@ header{
     }
   }
   ul{
-    padding: 0 13px 0 28px;
+    padding: -1px 13px 0 28px;
     position: relative;
     @include max-screen(991px){
       position: absolute;
@@ -321,10 +331,11 @@ header{
     }
   }
   li{
-    margin-left: 50px;
+
+    margin-left: 21px;
     color: black;
     font-size: 15px;
-    padding: 0 13px 0 28px;
+    padding: -20px 0px 0 0px;
     font-weight: bold;
     span{
       font-weight: normal;
@@ -334,7 +345,7 @@ header{
     }
   }
   ul{
-    padding: 0 13px 0 28px;
+    padding: -1px 13px 0 28px;
     position: relative;
     @include max-screen(991px){
       position: absolute;
@@ -400,9 +411,10 @@ header{
       }
     }
     h4{
+      max-width: 354px;
       color: black;
       font-size: 15px;
-      font-weight: normal;
+      font-weight: 400;
       margin-bottom: 10px;
       @include max-screen(514px){
         font-size: 10px;
@@ -459,6 +471,7 @@ header{
         border-radius: 10px;
       }
       a:hover{
+        animation-name: pulse;
         box-shadow: 0px 0px 10px 0px #FFFFFF;
         transition: 0.3s;
       }

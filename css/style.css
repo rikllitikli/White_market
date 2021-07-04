@@ -128,7 +128,7 @@ header {
     text-align: center; }
     @media screen and (max-width: 514) {
       .screen_one h1 {
-        margin-bottom: 30px; } }
+        margin-bottom: 17px; } }
   .screen_one .card_ {
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(50px);
@@ -182,11 +182,13 @@ header {
       justify-content: space-between;
       align-items: center;
       position: relative;
-      bottom: 76px; }
+      bottom: 76px;
+      width: 388px; }
       @media screen and (max-width: 1200px) {
         .screen_one .card_ .price {
           position: relative;
-          bottom: 34px; } }
+          bottom: 34px;
+          width: 318px; } }
       @media screen and (max-width: 991px) {
         .screen_one .card_ .price {
           position: absolute;
@@ -207,12 +209,20 @@ header {
           font-weight: normal; }
       .screen_one .card_ .price a {
         color: white;
+        font-weight: bold;
         background-color: #0B9344;
         padding: 10px 43px;
         text-decoration: none;
         display: inline-block;
         border-radius: 10px; }
+        @media screen and (max-width: 1200px) {
+          .screen_one .card_ .price a {
+            padding: 10px 33px; } }
+        @media screen and (max-width: 991px) {
+          .screen_one .card_ .price a {
+            padding: 10px 43px; } }
       .screen_one .card_ .price a:hover {
+        animation-name: pulse;
         box-shadow: 0px 0px 10px 0px #FFFFFF;
         transition: 0.3s; }
     .screen_one .card_ .price:hover {
@@ -227,7 +237,7 @@ header {
       .screen_one li {
         font-size: 10px; } }
   .screen_one ul {
-    padding: 0 13px 0 28px;
+    padding: -1px 13px 0 28px;
     position: relative; }
     @media screen and (max-width: 991px) {
       .screen_one ul {
@@ -262,10 +272,10 @@ header {
         font-size: 17px;
         margin-bottom: 30px; } }
   .screen_two li {
-    margin-left: 50px;
+    margin-left: 21px;
     color: black;
     font-size: 15px;
-    padding: 0 13px 0 28px;
+    padding: -20px 0px 0 0px;
     font-weight: bold; }
     .screen_two li span {
       font-weight: normal; }
@@ -273,7 +283,7 @@ header {
       .screen_two li {
         font-size: 10px; } }
   .screen_two ul {
-    padding: 0 13px 0 28px;
+    padding: -1px 13px 0 28px;
     position: relative; }
     @media screen and (max-width: 991px) {
       .screen_two ul {
@@ -333,9 +343,10 @@ header {
         .screen_two .card_scr_two h3 {
           font-size: 12px; } }
     .screen_two .card_scr_two h4 {
+      max-width: 354px;
       color: black;
       font-size: 15px;
-      font-weight: normal;
+      font-weight: 400;
       margin-bottom: 10px; }
       @media screen and (max-width: 514px) {
         .screen_two .card_scr_two h4 {
@@ -386,6 +397,7 @@ header {
         display: inline-block;
         border-radius: 10px; }
       .screen_two .card_scr_two .price a:hover {
+        animation-name: pulse;
         box-shadow: 0px 0px 10px 0px #FFFFFF;
         transition: 0.3s; }
     .screen_two .card_scr_two .price:hover {

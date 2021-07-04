@@ -915,7 +915,8 @@ footer {
     .about_screen_three .a_comand img {
       width: 150px; }
     .about_screen_three .a_comand img:hover {
-      width: 160px; }
+      width: 160px;
+      transition: 0.3s; }
     .about_screen_three .a_comand h3 {
       color: white;
       font-size: 25px;

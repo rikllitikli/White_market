@@ -19,7 +19,11 @@ header {
   background: #000000 !important; }
 
 .logo {
-  margin-right: 30px; }
+  padding: 0 !important;
+  max-width: 99px; }
+  .logo img {
+    width: 100%;
+    margin-right: 30px; }
 
 .navbar-light .navbar-toggler:hover {
   background-color: #0B9344 !important;
@@ -65,16 +69,23 @@ header {
     background-position: center top;
     background-repeat: no-repeat;
     text-align: center; } }
+.anime_teleg {
+  position: absolute; }
+
 .contact_header a:nth-last-child(1) {
   color: white;
+  margin-left: 136px;
+  font-weight: bold;
   text-decoration: none;
   border: 1px solid #0B9344;
   padding: 4px 15px;
   border-radius: 10px; }
+  @media screen and (max-width: 1200px) {
+    .contact_header a:nth-last-child(1) {
+      margin-left: 66px; } }
   @media screen and (max-width: 991px) {
     .contact_header a:nth-last-child(1) {
-      position: relative;
-      right: 13px; } }
+      margin-left: 0; } }
 
 .contact_header a:nth-last-child(1):hover {
   background-color: #0B9344;

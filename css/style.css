@@ -46,21 +46,31 @@ header {
   color: #0B9344 !important;
   transition: 0.3s; }
 
+.anime_dollar {
+  position: relative; }
+  .anime_dollar img {
+    position: relative;
+    bottom: 3px;
+    height: 20px;
+    width: 20px; }
+
 .blog {
   color: orange !important; }
 
-.contact_header img {
-  margin-right: 30px;
-  margin-left: 76px; }
-  @media screen and (max-width: 1200px) {
-    .contact_header img {
-      margin-left: 30px; } }
-  @media screen and (max-width: 991px) {
-    .contact_header img {
-      margin-left: 0;
-      margin-right: 0;
-      position: relative;
-      left: 190px; } }
+.contact_header {
+  position: relative; }
+  .contact_header img {
+    margin-right: 30px;
+    margin-left: 76px; }
+    @media screen and (max-width: 1200px) {
+      .contact_header img {
+        margin-left: 30px; } }
+    @media screen and (max-width: 991px) {
+      .contact_header img {
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+        left: 190px; } }
 
 @media screen and (max-width: 991px) {
   .back_head {
@@ -70,7 +80,17 @@ header {
     background-repeat: no-repeat;
     text-align: center; } }
 .anime_teleg {
+  left: 0;
   position: absolute; }
+  @media screen and (max-width: 1200px) {
+    .anime_teleg {
+      left: -25px; } }
+  @media screen and (max-width: 991px) {
+    .anime_teleg {
+      right: 0; } }
+  @media screen and (max-width: 414px) {
+    .anime_teleg {
+      right: 120px; } }
 
 .contact_header a:nth-last-child(1) {
   color: white;
@@ -82,7 +102,7 @@ header {
   border-radius: 10px; }
   @media screen and (max-width: 1200px) {
     .contact_header a:nth-last-child(1) {
-      margin-left: 66px; } }
+      margin-left: 43px; } }
   @media screen and (max-width: 991px) {
     .contact_header a:nth-last-child(1) {
       margin-left: 0; } }

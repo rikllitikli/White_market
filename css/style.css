@@ -912,11 +912,11 @@ footer {
             right: -10px; } }
     .about_screen_three .a_comand .user_image:hover a {
       display: block; }
-    .about_screen_three .a_comand img {
-      width: 150px; }
-    .about_screen_three .a_comand img:hover {
+    .about_screen_three .a_comand .user_image:hover img {
       width: 160px;
       transition: 0.3s; }
+    .about_screen_three .a_comand img {
+      width: 150px; }
     .about_screen_three .a_comand h3 {
       color: white;
       font-size: 25px;
@@ -1004,12 +1004,12 @@ footer {
         .about_screen_three .imag_user img {
           position: relative;
           right: 15px; } }
-    .about_screen_three .imag_user img:hover {
-      width: 145px;
-      transition: 0.3s; }
   .about_screen_three .imag_user:hover a {
     display: block;
     transition: 1s; }
+  .about_screen_three .imag_user:hover img {
+    width: 145px;
+    transition: 0.3s; }
 
 .tel_comand {
   max-width: 1140px;

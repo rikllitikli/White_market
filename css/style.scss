@@ -1099,14 +1099,15 @@ a{
       a{
         display: block;
       }
+      img{
+        width: 160px;
+        transition: 0.3s;
+      }
     }
     img{
       width: 150px;
     }
-    img:hover{
-      width: 160px;
-      transition: 0.3s;
-    }
+
     h3{
       color: white;
       font-size: 25px;
@@ -1205,15 +1206,16 @@ a{
         right: 15px;
       }
     }
-    img:hover {
-      width: 145px;
-      transition: 0.3s;
-    }
+
   }
   .imag_user:hover{
     a{
       display: block;
       transition: 1s;
+    }
+    img {
+      width: 145px;
+      transition: 0.3s;
     }
   }
 }

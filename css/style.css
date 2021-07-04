@@ -536,8 +536,8 @@ footer {
     margin-bottom: 25px; }
     @media screen and (max-width: 767px) {
       .index_slide_two h1 {
-        font-size: 20px;
-        line-height: 24px; } }
+        font-size: 25px;
+        line-height: 35px; } }
   .index_slide_two a {
     text-transform: uppercase;
     font-weight: bold;
@@ -733,7 +733,7 @@ footer {
     border-radius: 10px;
     text-decoration: none;
     position: relative;
-    bottom: 20px; }
+    bottom: 2px; }
     @media screen and (max-width: 991px) {
       .i_partners .botton_partner {
         position: relative;
@@ -1080,7 +1080,7 @@ footer {
       transition: 0.3s; }
 
 .k_screen_one {
-  background-image: url("../img/k-back-screen_one.jpg");
+  background-image: url("../img/k-back-screen_one.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -1273,6 +1273,13 @@ footer {
         background-color: #0B9344;
         color: white;
         transition: 0.3s; }
+  .k_screen_two .k_flex_container:hover {
+    box-shadow: 0px 0px 10px 5px #92929240;
+    transition: 0.3s;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px; }
 
 .k_telegram {
   padding-bottom: 80px; }
@@ -1287,18 +1294,34 @@ footer {
       color: white;
       font-weight: bold;
       margin-bottom: 64px; }
+  .k_telegram .k_teleg:hover {
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.35);
+    transition: 0.3s;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px; }
   .k_telegram .k_teleg_t {
     background-image: url("../img/k_teleg_t.png");
     padding: 30px;
     border-radius: 10px;
     margin-bottom: 20px;
     background-size: cover; }
+  .k_telegram .k_teleg_t:hover {
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.35);
+    transition: 0.3s;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px; }
   .k_telegram h3 {
     font-size: 25px;
     color: white;
     font-weight: bold;
     margin-bottom: 64px; }
   .k_telegram a {
+    color: black;
+    font-weight: bold;
     background-color: #F3F3F3;
     padding: 21px 25px;
     border-radius: 100px;
@@ -1311,7 +1334,7 @@ footer {
     transition: 0.3s; }
 
 .trainer_screen_one {
-  background-image: url("../img/trainer_screen_one.png ");
+  background-image: url("../img/trainer_screen_one.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -1684,6 +1707,9 @@ footer {
     color: white;
     text-transform: uppercase;
     margin-bottom: 50px; }
+    @media screen and (max-width: 767px) {
+      .trainer_screen_seven h2 {
+        font-size: 25px; } }
   .trainer_screen_seven img {
     margin-bottom: 20px; }
   .trainer_screen_seven h3 {

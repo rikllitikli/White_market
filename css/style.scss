@@ -640,8 +640,8 @@ footer{
     font-weight: 600;
     margin-bottom: 25px;
     @include max-screen(767px){
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 25px;
+      line-height: 35px;
     }
   }
   a{
@@ -896,7 +896,7 @@ footer{
     border-radius: 10px;
     text-decoration: none;
     position: relative;
-    bottom: 20px;
+    bottom: 2px;
     @include max-screen(991px){
       position: relative;
       bottom: 0;
@@ -1307,7 +1307,7 @@ a{
 }
 
 .k_screen_one{
-  background-image: url("../img/k-back-screen_one.jpg");
+  background-image: url("../img/k-back-screen_one.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -1399,6 +1399,7 @@ a{
 
 
     }
+
     .k_content_2{
       width: 100%;
       background-color: #F8F8F8;
@@ -1560,6 +1561,14 @@ a{
       }
     }
   }
+  .k_flex_container:hover{
+    box-shadow: 0px 0px 10px 5px #92929240;
+    transition: 0.3s;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
   }
 
 .k_telegram{
@@ -1577,12 +1586,28 @@ a{
       margin-bottom: 64px;
     }
   }
+  .k_teleg:hover{
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 35%);
+    transition: 0.3s;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
   .k_teleg_t{
     background-image: url("../img/k_teleg_t.png");
    padding: 30px;
     border-radius: 10px;
     margin-bottom: 20px;
     background-size: cover;
+  }
+  .k_teleg_t:hover{
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 35%);
+    transition: 0.3s;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
   }
   h3{
     font-size: 25px;
@@ -1591,6 +1616,8 @@ a{
     margin-bottom: 64px;
   }
   a{
+    color: black;
+    font-weight: bold;
     img{
       width: 55px;
       margin-right: 14px;
@@ -1608,7 +1635,7 @@ a{
 }
 
 .trainer_screen_one{
-  background-image: url("../img/trainer_screen_one.png ");
+  background-image: url("../img/trainer_screen_one.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -2071,6 +2098,9 @@ text-decoration: none;
     color: white;
     text-transform: uppercase;
     margin-bottom: 50px;
+    @include max-screen(767px){
+      font-size: 25px;
+    }
   }
   img{
     margin-bottom: 20px;

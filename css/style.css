@@ -782,6 +782,10 @@ footer {
   .i_partners .w_partners div:nth-child(10) a img {
     max-width: 237px;
     width: 100%; }
+    @media screen and (max-width: 991px) {
+      .i_partners .w_partners div:nth-child(10) a img {
+        position: relative;
+        top: 10px; } }
     @media screen and (max-width: 767px) {
       .i_partners .w_partners div:nth-child(10) a img {
         position: relative;

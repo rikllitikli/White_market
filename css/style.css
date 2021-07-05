@@ -231,6 +231,7 @@ header {
   .screen_one li {
     margin-left: 50px;
     color: white;
+    font-weight: bold;
     font-size: 15px;
     padding: 0 13px 0 28px; }
     @media screen and (max-width: 514px) {
@@ -249,7 +250,8 @@ header {
         bottom: 88px; } }
 
 .screen_one li:nth-child(n+3):nth-child(-n+6) {
-  list-style: none; }
+  list-style: none;
+  font-weight: lighter; }
 
 .screen_one li {
   padding: 0; }

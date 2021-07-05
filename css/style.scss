@@ -948,6 +948,10 @@ footer{
   .w_partners div:nth-child(10) a img{
     max-width: 237px;
     width: 100%;
+    @include max-screen(767px){
+      position: relative;
+      top: 20px;
+    }
   }
   .w_partners div:nth-child(11) a img{
     position: relative;
@@ -955,6 +959,10 @@ footer{
     left: 15px;
     max-width: 144px;
     width: 100%;
+    @include max-screen(767px){
+      position: relative;
+      top: 22px;
+    }
   }
   img{
     margin-bottom: 30px;
@@ -978,6 +986,10 @@ footer{
     @include max-screen(991px){
       position: relative;
       bottom: 0;
+    }
+    @include max-screen(767px){
+      position: relative;
+      top: 20px;
     }
   }
   .botton_partner:hover{

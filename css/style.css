@@ -782,12 +782,20 @@ footer {
   .i_partners .w_partners div:nth-child(10) a img {
     max-width: 237px;
     width: 100%; }
+    @media screen and (max-width: 767px) {
+      .i_partners .w_partners div:nth-child(10) a img {
+        position: relative;
+        top: 20px; } }
   .i_partners .w_partners div:nth-child(11) a img {
     position: relative;
     top: 17px;
     left: 15px;
     max-width: 144px;
     width: 100%; }
+    @media screen and (max-width: 767px) {
+      .i_partners .w_partners div:nth-child(11) a img {
+        position: relative;
+        top: 22px; } }
   .i_partners img {
     margin-bottom: 30px; }
   .i_partners h2 {
@@ -809,6 +817,10 @@ footer {
       .i_partners .botton_partner {
         position: relative;
         bottom: 0; } }
+    @media screen and (max-width: 767px) {
+      .i_partners .botton_partner {
+        position: relative;
+        top: 20px; } }
   .i_partners .botton_partner:hover {
     background-color: #0B9344;
     color: white;

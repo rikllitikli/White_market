@@ -1076,6 +1076,7 @@ a{
     line-height: 48px;
     @include max-screen(540px){
       font-size: 12px;
+      line-height: 20px;
     }
   }
 }

@@ -894,7 +894,8 @@ footer {
     line-height: 48px; }
     @media screen and (max-width: 540px) {
       .about_screen_one h1 {
-        font-size: 12px; } }
+        font-size: 12px;
+        line-height: 20px; } }
 
 .about_screen_two {
   padding: 100px 0 64px; }

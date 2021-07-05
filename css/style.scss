@@ -1307,35 +1307,40 @@ a{
 
   .owl-nav .owl-prev{
     position: absolute;
-    left: 0;
-    bottom: 0;
-  }
-
-  .owl-nav .owl-prev:before {
-    content: "\f053";
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    font-size: 40px;
-    color: white;
-    padding: 13px 18px;
-    border-radius: 50%;
+    left: 15px;
+    bottom: 100px;
+    @include max-screen(540px){
+      right: 0;
+      bottom: -5px;
+    }
   }
 
   .owl-nav .owl-next {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 15px;
+    bottom: 100px;
+    @include max-screen(540px){
+      right: 0;
+      bottom: -5px;
+    }
+  }
+
+  .owl-nav .owl-prev:before {
+    content: "";
+    display: inline-block;
+    background-image: url("../img/left.png");
+    width: 22px;
+    height: 40px;
   }
 
   .owl-nav .owl-next:before {
-    content: "\f054";
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    font-size: 40px;
-    color: white;
-    padding: 13px 18px;
-    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    background-image: url("../img/right.png");
+    width: 22px;
+    height: 40px;
   }
+
 
   .owl-drag {
     text-align: center;

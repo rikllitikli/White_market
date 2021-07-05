@@ -437,9 +437,11 @@ header{
       align-items: center;
       position: relative;
       bottom: 52px;
+      width: 388px;
       @include max-screen(1200px){
         position: relative;
         bottom: 16px;
+        width: 318px;
       }
       @include max-screen(991px){
         position: absolute;
@@ -469,6 +471,12 @@ header{
         padding: 10px 43px;
         display: inline-block;
         border-radius: 10px;
+        @include max-screen(1200px){
+          padding: 10px 33px;
+        }
+        @include max-screen(991px){
+          padding: 10px 43px;
+        }
       }
       a:hover{
         animation-name: pulse;
@@ -753,23 +761,19 @@ footer{
   }
 
   .owl-nav .owl-prev:before {
-    content: "\f053";
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    font-size: 40px;
-    color: white;
-    padding: 13px 18px;
-    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    background-image: url("../img/left.png");
+    width: 22px;
+    height: 40px;
   }
 
   .owl-nav .owl-next:before {
-    content: "\f054";
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    font-size: 40px;
-    color: white;
-    padding: 13px 18px;
-    border-radius: 50%;
+  content: "";
+    display: inline-block;
+    background-image: url("../img/right.png");
+    width: 22px;
+    height: 40px;
   }
 
   .owl-drag {
@@ -1973,7 +1977,6 @@ h2{
   .owl-nav .owl-next {
     position: absolute;
     right: -80px;
-    top: -100px;
     @include max-screen(1120px){
       right: -40px;
     }
@@ -1981,13 +1984,12 @@ h2{
       right: -50px;
     }
     @include max-screen(575px){
-      right: -44px;
+      right: -24px;
     }
   }
   .owl-nav .owl-prev {
     position: absolute;
     left: -80px;
-    top: -100px;
     @include max-screen(1120px){
       left: -45px;
     }
@@ -1999,22 +2001,19 @@ h2{
     }
   }
   .owl-nav .owl-prev:before {
-    content: "\f053";
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    font-size: 40px;
-    color: white;
-    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    background-image: url("../img/left.png");
+    width: 22px;
+    height: 40px;
   }
 
   .owl-nav .owl-next:before {
-    content: "\f054";
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    font-size: 40px;
-    color: white;
-    padding: 13px 18px;
-    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    background-image: url("../img/right.png");
+    width: 22px;
+    height: 40px;
   }
 
 }

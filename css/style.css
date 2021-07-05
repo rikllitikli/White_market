@@ -366,11 +366,13 @@ header {
       justify-content: space-between;
       align-items: center;
       position: relative;
-      bottom: 52px; }
+      bottom: 52px;
+      width: 388px; }
       @media screen and (max-width: 1200px) {
         .screen_two .card_scr_two .price {
           position: relative;
-          bottom: 16px; } }
+          bottom: 16px;
+          width: 318px; } }
       @media screen and (max-width: 991px) {
         .screen_two .card_scr_two .price {
           position: absolute;
@@ -396,6 +398,12 @@ header {
         padding: 10px 43px;
         display: inline-block;
         border-radius: 10px; }
+        @media screen and (max-width: 1200px) {
+          .screen_two .card_scr_two .price a {
+            padding: 10px 33px; } }
+        @media screen and (max-width: 991px) {
+          .screen_two .card_scr_two .price a {
+            padding: 10px 43px; } }
       .screen_two .card_scr_two .price a:hover {
         animation-name: pulse;
         box-shadow: 0px 0px 10px 0px #FFFFFF;
@@ -626,21 +634,17 @@ footer {
     .carusel_i .owl-nav .owl-prev {
       left: 10px; } }
 .carusel_i .owl-nav .owl-prev:before {
-  content: "\f053";
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  font-size: 40px;
-  color: white;
-  padding: 13px 18px;
-  border-radius: 50%; }
+  content: "";
+  display: inline-block;
+  background-image: url("../img/left.png");
+  width: 22px;
+  height: 40px; }
 .carusel_i .owl-nav .owl-next:before {
-  content: "\f054";
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  font-size: 40px;
-  color: white;
-  padding: 13px 18px;
-  border-radius: 50%; }
+  content: "";
+  display: inline-block;
+  background-image: url("../img/right.png");
+  width: 22px;
+  height: 40px; }
 .carusel_i .owl-drag {
   text-align: center; }
 .carusel_i .owl-dots {
@@ -1613,8 +1617,7 @@ footer {
     width: 100%; }
   .trainer_screen_five .owl-nav .owl-next {
     position: absolute;
-    right: -80px;
-    top: -100px; }
+    right: -80px; }
     @media screen and (max-width: 1120px) {
       .trainer_screen_five .owl-nav .owl-next {
         right: -40px; } }
@@ -1623,11 +1626,10 @@ footer {
         right: -50px; } }
     @media screen and (max-width: 575px) {
       .trainer_screen_five .owl-nav .owl-next {
-        right: -44px; } }
+        right: -24px; } }
   .trainer_screen_five .owl-nav .owl-prev {
     position: absolute;
-    left: -80px;
-    top: -100px; }
+    left: -80px; }
     @media screen and (max-width: 1120px) {
       .trainer_screen_five .owl-nav .owl-prev {
         left: -45px; } }
@@ -1638,20 +1640,17 @@ footer {
       .trainer_screen_five .owl-nav .owl-prev {
         left: -24px; } }
   .trainer_screen_five .owl-nav .owl-prev:before {
-    content: "\f053";
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    font-size: 40px;
-    color: white;
-    border-radius: 50%; }
+    content: "";
+    display: inline-block;
+    background-image: url("../img/left.png");
+    width: 22px;
+    height: 40px; }
   .trainer_screen_five .owl-nav .owl-next:before {
-    content: "\f054";
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    font-size: 40px;
-    color: white;
-    padding: 13px 18px;
-    border-radius: 50%; }
+    content: "";
+    display: inline-block;
+    background-image: url("../img/right.png");
+    width: 22px;
+    height: 40px; }
 
 .trainer_screen_six {
   padding: 100px 0 70px; }

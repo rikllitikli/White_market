@@ -233,9 +233,14 @@ header {
     color: white;
     font-weight: bold;
     font-size: 15px;
+    line-height: 24px;
     padding: 0 13px 0 28px; }
+    @media screen and (max-width: 767px) {
+      .screen_one li {
+        line-height: 22px; } }
     @media screen and (max-width: 514px) {
       .screen_one li {
+        line-height: 15px;
         font-size: 10px; } }
   .screen_one ul {
     padding: -1px 13px 0 28px;
@@ -869,7 +874,8 @@ footer {
       padding: 20px 0 33px; } }
   .about_screen_one h1 {
     color: white;
-    font-size: 30px; }
+    font-size: 30px;
+    line-height: 48px; }
     @media screen and (max-width: 540px) {
       .about_screen_one h1 {
         font-size: 12px; } }

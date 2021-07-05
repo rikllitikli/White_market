@@ -124,6 +124,9 @@ header{
     right: 120px;
   }
 }
+.anime_teleg:hover{
+  animation-name: bounce;
+}
 
 .contact_header a:nth-last-child(1){
   color: white;
@@ -551,7 +554,7 @@ footer{
 }
 
 .merkrt_screen_one{
-  background-image: url("../img/screen_one_market.jpg");
+  background-image: url("../img/blur.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -665,7 +668,7 @@ footer{
 }
 
 .index_slide_one{
-  background-image: url("../img/1WM.png");
+  background-image: url("../img/1WM.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -704,7 +707,7 @@ footer{
 
 
 .index_slide_two{
-  background-image: url("../img/2WM.jpg");
+  background-image: url("../img/2WM.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;

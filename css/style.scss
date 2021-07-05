@@ -693,8 +693,10 @@ footer{
     text-decoration: none;
     text-align: center;
   }
-  a:hover{
+  .anime_botton:hover{
     animation-name: pulse; // Predefined in animate.css
+  }
+  a:hover{
     box-shadow: 0px 0px 10px 0px #FFFFFF;
     transition: 0.3s;
   }
@@ -730,8 +732,10 @@ footer{
     text-decoration: none;
     text-align: center;
   }
-  a:hover{
+  .anime_botton:hover{
     animation-name: pulse; // Predefined in animate.css
+  }
+  a:hover{
     box-shadow: 0px 0px 10px 0px #FFFFFF;
     transition: 0.3s;
   }
